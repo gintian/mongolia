@@ -1,0 +1,12 @@
+{
+    "Url":"http://192.168.0.245:8900/neimeng5.5",
+    "Url2":"http://192.168.0.245:8099/neimengW5.5",
+	"datamanel":"http://172.16.12.32:17009/jwvisual/service/api/jwvisual/v1/",
+    "videoSocket":"ws://127.0.0.1:8909",
+    "alarmSocket":"ws://192.168.0.245:8091",
+    "intercomSocket":"ws://192.168.0.27",
+    "peopleLocation":"ws://192.168.0.211:8099",
+    "doorInterface":"http://xxxxx",
+    "luwangIp":"192.168.0.245:9901",
+    "luwangName":"nmd"
+}
