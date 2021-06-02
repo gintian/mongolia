@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./style.scss";
-
+import { useDispatch, useMappedState } from "redux-react-hook";
 function Header() {
+  const dispatch = useDispatch();
   const [timeNow, setTime] = useState();
-
+  const top_count = useMappedState((state) => state.top_navigation_count);
   const navModule = [
     {
       modules_name: "资源图谱",
@@ -34,7 +35,7 @@ function Header() {
 
   useEffect(() => {
     showtime();
-  });
+  }, [top_count]);
   // move time
   const showtime = () => {
     var date = new Date();
@@ -74,7 +75,10 @@ function Header() {
     setTime(time);
     setTimeout(showtime, 1000);
   };
-
+  // handle top
+  const handle_top = (item, index) => {
+    dispatch({ type: "handleTop", top_navigation_count: index });
+  };
   return (
     <div className="header">
       <div className="header_line"></div>
@@ -98,7 +102,15 @@ function Header() {
           <div className="header_title_list">
             <ul>
               {navModule.map((item, index) => {
-                return <li key={index}>{item.modules_name}</li>;
+                return (
+                  <li
+                    className={top_count === index ? "active_LI" : null}
+                    onClick={() => handle_top(item, index)}
+                    key={index}
+                  >
+                    {item.modules_name}
+                  </li>
+                );
               })}
             </ul>
           </div>
