@@ -2,6 +2,8 @@ import React, { Component, Fragment } from "react";
 import "./index.scss";
 //引入echarts
 import * as echarts from "echarts";
+// 水波图
+import "echarts-liquidfill";
 
 class Targetdata extends Component {
   constructor(props) {
@@ -51,7 +53,7 @@ class Targetdata extends Component {
         ordinaryRoomFreeNum: "2", //空闲中数量
         ordinaryRoomTotalNum: "14", //房间总数
         ordinaryRoomUseNum: "12", //使用数量
-        usePercent: "50", //使用百分比—只保留整数
+        usePercent: "40", //使用百分比—只保留整数
       }, // 普通滞留室 end
       historyCaseData: {
         value: "433",
@@ -68,7 +70,7 @@ class Targetdata extends Component {
         mindRoomFreeNum: "4", //智慧留置房间空闲中中数量
         mindRoomTotalNum: "13", //智慧留置房间总数
         mindRoomUseNum: "9", //智慧留置房间使用中数量
-        usePercent: "50", //智慧留置房间使用率--只保留整数部分
+        usePercent: "100", //智慧留置房间使用率--只保留整数部分
       }, // 智慧滞留室 end
 
       // 智慧留置运行态势
@@ -412,24 +414,15 @@ class Targetdata extends Component {
 
                           <p className="www">
                             <span className="total">总数</span>
-                            <span>
-                              {lzsqkData.ordinaryRoomTotalNum}
-                              <span className="ge">个</span>
-                            </span>
+                            <span>{lzsqkData.ordinaryRoomTotalNum}</span>
                           </p>
                           <p className="www">
                             <span className="yishiy">使用中</span>
-                            <span>
-                              {lzsqkData.ordinaryRoomUseNum}
-                              <span className="ge">个</span>
-                            </span>
+                            <span>{lzsqkData.ordinaryRoomUseNum}</span>
                           </p>
                           <p className="www">
                             <span className="free">空闲中</span>
-                            <span>
-                              {lzsqkData.ordinaryRoomFreeNum}
-                              <span className="ge">个</span>
-                            </span>
+                            <span>{lzsqkData.ordinaryRoomFreeNum}</span>
                           </p>
                         </div>
                       </li>
@@ -442,24 +435,15 @@ class Targetdata extends Component {
                           ></div>
                           <p className="www">
                             <span className="total">总数</span>
-                            <span>
-                              {runSuationData.mindRoomTotalNum}
-                              <span className="ge">个</span>
-                            </span>
+                            <span>{runSuationData.mindRoomTotalNum}</span>
                           </p>
                           <p className="www">
                             <span className="yishiy">使用中</span>
-                            <span>
-                              {runSuationData.mindRoomUseNum}
-                              <span className="ge">个</span>
-                            </span>
+                            <span>{runSuationData.mindRoomUseNum}</span>
                           </p>
                           <p className="www">
                             <span className="free">空闲中</span>
-                            <span>
-                              {runSuationData.mindRoomFreeNum}
-                              <span className="ge">个</span>
-                            </span>
+                            <span>{runSuationData.mindRoomFreeNum}</span>
                           </p>
                         </div>
                       </li>
@@ -473,24 +457,15 @@ class Targetdata extends Component {
                           ></div>
                           <p className="www">
                             <span className="total">房间总数</span>
-                            <span>
-                              {talkSutationData.roomTotalNum}
-                              <span className="ge">个</span>
-                            </span>
+                            <span>{talkSutationData.roomTotalNum}</span>
                           </p>
                           <p className="www">
                             <span className="yishiy">使用中</span>
-                            <span>
-                              {talkSutationData.roomUseNum}
-                              <span className="ge">个</span>
-                            </span>
+                            <span>{talkSutationData.roomUseNum}</span>
                           </p>
                           <p className="www">
                             <span className="free">空闲中</span>
-                            <span>
-                              {talkSutationData.roomFreeNum}
-                              <span className="ge">个</span>
-                            </span>
+                            <span>{talkSutationData.roomFreeNum}</span>
                           </p>
                         </div>
                       </li>
