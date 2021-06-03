@@ -1,0 +1,1533 @@
+
+.VillaList{
+    color: #fff !important;
+    header{
+        background: url('../../assets/ios/index\ \(4\).png');
+        height: 54px;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        width: 100%;
+        left: 0;
+        right: 0;
+        h3{
+            text-align: center;
+            color: #fff;
+            line-height: 55px;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+  
+    }
+    .titles{
+      margin-top: 20px;
+      margin-left: 20px;
+      // position: relative;
+      // top: 30px;
+      // left: 30px;
+      background: url('../../assets/images/ios2/newlist/index\ \(13\).png')   no-repeat;
+      width: 392px;
+      height: 37px;
+      p{
+          opacity: 0.9;
+          text-align: center;
+          line-height: 34px;
+          font-size: 16px;
+          margin-right: 240px;
+          color: #fff;
+         
+      }
+  }
+    footer{
+      background: url('../../assets/ios/index\ \(8\).png');
+      height: 39px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+    .titlelist{
+      background: url('../../assets/images/ios2/new/img\ \(17\).png');
+      width: 133px;
+      height: 26px;
+      text-align: center;
+      line-height: 26px;
+      position: relative;
+      top: 16px;
+      left: 30px;
+  }
+  
+  .titlelista{
+      background: url('../../assets/ios/index\ \(9\).png');
+      width: 135px;
+      height: 26px;
+      text-align: center;
+      line-height: 26px;
+  }
+      .VillaLeft{
+          position: absolute;
+          top:-20px;
+          left: 10px;
+          font-size: 13px;
+          background: url('../../assets/images/ios2/newlist/background.png');
+          width: 434px;
+          height: 974px;
+  
+          .VillaOne{
+              width: 491px;
+              height: 277px;
+           
+              .onetitle{
+                  background: url('../../assets/images/ios2/new/img\ \(1\).png');
+                  width: 110px;
+                  height: 26px;
+                  text-align: center;
+                  line-height: 26px;
+                  position: absolute;
+                  top: 30px;
+                  left: 30px;
+              }
+              .titlecenter{
+                  background: url('../../assets/images/ios2/newlist/right\ \(24\).png');
+                  width: 401px;
+                  height: 101px;
+                  margin: 0px 16px;
+                  p{
+                      text-align: center;
+                      display: flex;
+                      justify-content: center;
+                    span{
+                      font-family: MicrosoftYaHeiUI-Bold;
+                      font-size: 18px;
+                      color: #2BFAFF;
+                      text-align: center;
+                      text-shadow: 0 0 10px #10768D;
+                      font-weight: 700;
+                    }
+                  }
+                  p:nth-child(2){
+                      span{
+                          font-family: DINAlternate-Bold;
+                          font-size: 22px;
+                          color: #FFFFFF;
+                          letter-spacing: 1px;
+                          line-height: 28px;
+                          text-shadow: 0 0 10px rgba(17,255,246,0.81);
+                          font-weight: 700;
+                      }
+                  }
+              }
+              .titlebottom{
+                 position: relative;
+                  margin: 5px 40px;
+                  
+                  p{
+                      margin: 0 84px;
+                      background: url('../../assets/images/ios2/newlist/right\ \(2\).png');width: 182px;height: 36px;
+                      font-family: MicrosoftYaHei-Bold;
+                      font-size: 16px;
+                      color: #2BFAFF;
+                      font-weight: 700;
+                      line-height: 36px;
+                      text-align: center;
+                  
+                  }
+                  .ullist{
+                      background: url('../../assets/images/ios2/newlist/right\ \(1\).png');
+                      width: 394px;
+                      height: 183px;
+                      position: absolute;
+                      top: 22px;
+                      left: -20px;
+                      ul{
+                        
+                          display: flex;
+                          justify-content: flex-start;
+                          flex-wrap: wrap;
+                          align-items: center;
+                         margin-top: 20px;
+                          li{
+                            
+                             
+                              width: 114px;
+                              height: 36px;
+                              font-family: Helvetica;
+                              font-size: 14px;
+                              color: #DAFFE8;
+                              letter-spacing: 0;
+                              font-weight: 400;
+                              margin: 6px 8px;
+                              font-family: MicrosoftYaHei-Bold;
+                              font-size: 15px;
+                              color: #2BFAFF;
+                              font-weight: 600;
+                              display: flex;
+                              align-items: center;
+                              
+                              i{
+                               
+                                  width: 18px;
+                                  height: 18px;
+                                  display: inline-block;
+                                  margin-right: 5px;
+                              }
+                          }
+                      }
+                  }
+                
+              }
+              .g{
+                  background: url('../../assets/ios/index\ \(9\).png');
+                  
+                  
+              }
+              .A1{             
+                  display: flex;
+                  margin-top:20px;   
+                  margin-left: 30px;
+                  background:url('../../assets/ios/index\ \(11\).png');
+                  width: 384px;
+                  height:100px ;
+                  p{
+                      line-height: 30px;                   
+                  }
+                 a{
+                     font-size: 20px;
+                 }
+                 span{
+                     margin-left: 10px;
+                 }
+              }
+              
+              
+              .A2{
+                  span{
+                      margin-left: 18px;
+                  }
+                  .x{
+                      margin-left: 8px;
+                      margin-top: -1px;
+                  }
+                  margin-left: 100PX;
+                  margin-top: 20PX;
+                  
+              }
+              .a{
+                  margin-left: 150px;
+              }
+              .A3{
+                  width: 400px;
+                  height: 80px;
+                 
+                  margin-left: 70px;
+                  margin-top: 10px;
+                  .a1{
+                      margin-top: 20px;
+                      margin-left: 10px;
+                      line-height: 23px;
+                  }
+                  .a2{
+                      
+                      margin-left: 120px;
+                      line-height: 23px;
+                      
+                  }
+                  .a3{
+                      margin-left: 250px;
+                      line-height: 23px;
+                      p{
+                          background: url('../../assets/images/ios2/right/right\ \(9\).png');
+                          width: 61px;
+                          height: 15px;
+                      }
+                      span{  
+                          width: 18px;
+                          height: 18px;
+                          background: url('../../assets/ios/index\ \(10\).png');
+                       
+                      }
+                  }
+                 
+              }
+              
+          }
+          .VillaTwo{
+              margin: 80px 0;
+              width: 491px;
+              height: 277px;
+              .twobackgrounde{
+                  width: 460px;
+                  position: relative;
+                  height: 250px;
+                  // background-color: #1C2826;
+                  // background: url('../../assets/ios/index\ \(12\).png');
+                  // background-image: url('../../assets/ios/index\ \(12\).png');
+                  // background-repeat: no-repeat;
+                  //  background-size: 100% 100%;
+                  //  background-position: center 0;
+                  margin: 4px 30px;
+                  ul{
+                     position: relative;
+                     top: 5px;
+                      display: flex;
+                      flex-wrap: wrap;
+                      li{
+                          width: 20%;
+                          .countNum{
+                              text-indent: 2em;
+                              font-size: 20px;
+                             color: #FFFFFF;
+                             margin-left: -20px;
+                          }
+                          .center{
+                              margin-left: 0px;
+                          }
+                          .person{
+                              font-family: MicrosoftYaHeiUI-Bold;
+                              font-size: 18px;
+                              color: #2BFAFF;
+                              text-align: center;
+                              text-shadow: 0 0 10px #10768D;
+                              font-weight: 700;
+                              margin-left: -100px;
+                          }
+                        
+                          p{
+                              height: 0px;
+                              // margin-left: 8px;
+                            //text-align: center;
+                          }
+                          i{
+                               background: url('../../assets/images/ios2/newlist/right\ \(10\).png');
+                              width: 66px;
+                              height: 76px;
+                              display: block;
+                          }
+                      }
+                      li:nth-child(1){
+                          position: absolute;
+                          top: 60px;
+                          left: 16px;
+                      }
+                      li:nth-child(2){
+                          position: absolute;
+                         left: 80px;
+                         top: -20px;
+                      }
+                      li:nth-child(3){
+                          position: absolute;
+                         left: 230px;
+                         top: -24px;
+                      }
+                      li:nth-child(4){
+                          position: absolute;
+                         left: 300px;
+                         top: 58px;
+                      }
+                      li:nth-child(5){
+                          position: absolute;
+                          width: 66px;
+                          height: 76px;
+                         i{
+                             background: url('../../assets/images/ios2/newlist/right\ \(10\).png');
+                             width: 66px;
+                             height: 76px;
+                         }
+                      }
+                      li:nth-child(6){
+                          position: absolute;
+                         left: 120px;
+                         top: 30px;
+                         i{
+                             background: url('../../assets/images/ios2/newlist/wful\ \(35\).png');
+                             background-size: 137px 120px;
+                            //  wful (35)
+                             width: 137px;
+                             height: 120px;
+                             position: relative;
+                            
+                         }
+                         .center{
+                          width: 42px;
+                          height: 30px;
+                          text-align: center;
+                          font-size: 24px;
+                          position: absolute;
+                          left: 10px;
+                          top: 36px;
+                      }
+                      }
+                  }
+                  .arraw{
+                      .next{
+                          position: absolute;
+                          top: 80px;
+                          left: 160px;
+                          width: 100px;
+                         
+                      }
+                      .prev{
+                          position: absolute;
+                          top: 80px;
+                          left: 210px;
+                          width: 100px;
+                      }
+                  }
+            
+              }
+              .fourearchs{
+                  background: url('../../assets/ios/index\ \(3\).png');
+                  width: 404px;
+                  height: 314px;
+              }
+              .b{
+                  color: #BDE8D2;
+                 
+                  border-radius: 50%;
+                  margin-left: -112px;
+              
+                  
+                  li{
+                      text-align: center;
+                     line-height: 20px;
+                  }
+              }
+              .b1{
+                  color: #BDE8D2;
+                  width: 70px;
+                
+                  margin-top: -30px;     
+                  border-radius: 50%;
+                  
+                  margin-left: 30px;
+                  li{
+                  text-align: center;
+                  margin-top: 25px;
+                  }
+                  p{text-align: center;
+                      width: 56px;
+                      height: 20px;
+                      font-family: Helvetica;
+                      font-size: 14px;
+                      color: #DAFFE8;
+                      letter-spacing: 0;
+                      text-align: center;
+                      font-weight: 400;}
+              }
+              .b2{
+                  color: #BDE8D2;
+                  width: 60px;
+                  height: 60px;
+                  border-radius: 50%;
+                  
+                  margin-left:268px;
+                  margin-top: -80px;
+                  li{
+                      text-align: center;
+                  }
+              }
+              .b3{
+                  color: #BDE8D2;
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                 
+                  margin-top: 30px;
+                  margin-left: 80px;
+                  li{
+                      text-align: center;
+                  }
+              }
+              .b4{
+                  color: #BDE8D2;
+                  width: 100px;
+                  height: 100px;
+                  border-radius: 50%;             
+                  margin-left: 165px;
+                  margin-top: -80px;
+                  li{text-align: center;}
+              }
+          }
+          .VillaThreeya{
+              width: 491px;
+              height: 383px;
+              margin-top: -40px;
+              .policelist{
+                  display: flex;
+                  justify-content:flex-start;
+                  div{
+                     margin-left: 30px;
+                     margin-top: 10px;
+                     background: url('../../assets/images/ios2/new/index (9).png');
+                     width: 118px;
+                     height: 40px;
+                     line-height: 40px;
+                     text-align: center;
+                     p{
+                         width: 160px;
+                         margin-left: 30px;
+                         span{
+                           
+                         }
+                         span:nth-child(1){
+                            font-family: MicrosoftYaHei-Bold;
+                            font-size: 16px;
+                            color: #2BFAFF;
+                            font-weight: 700;
+                            margin-right: 30px;
+                           
+                         }
+                         span:nth-child(2){
+                            font-family: DINAlternate-Bold;
+                            font-size: 25px;
+                            color: #FFFFFF;
+                            letter-spacing: 1px;
+                            text-align: right;
+                            line-height: 28px;
+                            text-shadow: 0 0 10px rgba(17,255,246,0.81);
+                            font-weight: 700;
+                            position: relative;
+                            left: -20px;
+                            top: 2px;
+                            margin-left: -0px;
+                         }
+                     }
+                  }
+                  div:nth-child(2){
+                      margin-left: 90px;
+                  }
+              }
+              .police{
+                  margin-top: 10px;
+                 
+                  ul{
+                      margin-left: 10px;
+                      display: flex;
+                      justify-content: flex-start;
+                      flex-wrap: wrap;
+                    li{
+                        margin:6px 10px;
+                    }
+                     li:nth-child(odd){
+                          background: url('../../assets/images/ios2/newlist/right\ \(4\).png') no-repeat;
+                          height: 44px;
+                          width: 210px;
+                          .wj{
+                              font-family: MicrosoftYaHeiUI-Bold;
+                              font-size: 18px;
+                              color: #2BFAFF;
+                              text-shadow: 0 0 10px #10768D;
+                              font-weight: 700;
+                              margin-left: 30px;
+                          }
+                     }
+                     li:nth-child(even){
+                      background: url('../../assets/images/ios2/newlist/right\ \(3\).png') no-repeat;
+                      height: 44px;
+                      width: 210px;
+                      position: relative;
+                      left: -40px;
+                      .wj{
+                          font-family: MicrosoftYaHeiUI-Bold;
+                          font-size: 18px;
+                          color: #2BFAFF;
+                          text-shadow: 0 0 10px #10768D;
+                          font-weight: 700;
+                          width: 200px;
+                          position: absolute;
+                          left: 30px;
+                          top:5px;
+                      }
+                      .tj{
+                          width: 112.57px;
+                          height: 44px;
+                          line-height: 35px;
+                          font-size: 28px;
+                          color: #fff;
+                          font-weight: 700;
+                        
+                      }
+                 }
+                  }
+                  div:nth-child(1){
+                      background: url('../../assets/images/ios2/newlist/right\ \(4\).png') no-repeat;
+                      height: 44px;
+                      width: 210px;
+                      .wj{
+                          font-family: MicrosoftYaHeiUI-Bold;
+                          font-size: 18px;
+                          color: #2BFAFF;
+                          text-shadow: 0 0 10px #10768D;
+                          font-weight: 700;
+                          margin-left: 30px;
+                      }
+                      
+                  }
+                  div:nth-child(2){
+                      position: relative;left: -60px;
+                      background: url('../../assets/images/ios2/newlist/right\ \(3\).png') no-repeat;
+                      height: 44px;
+                      width: 210px;
+                      .tj{
+                          width: 112.57px;
+                          height: 44px;
+                          line-height: 35px;
+                          font-size: 18px;
+                          color: #2BFAFF;
+                          font-weight: 700;
+                          margin-left: -30px;
+                      }
+                  }
+                  p{
+                      margin-top: 4px;
+                      display: flex;
+                      align-items: center;
+                      span:nth-child(1){
+                          width: 84px;
+                          height: 20px;
+                          font-family: Helvetica;
+                          font-size: 14px;
+                          color: #DAFFE8;
+                          letter-spacing: 0;
+                          font-weight: 400;
+                          margin-left: 40px;
+                      }
+                      span:nth-child(2){
+                          width: 27px;
+                          height: 28px;
+                          font-family: DINAlternate-Bold;
+                          font-size: 26px;
+                          color: #FFFFFF;
+                          letter-spacing: 0.93px;
+                          text-align: center;
+                          line-height: 28px;
+                          text-shadow: 0 0 6px rgba(77,208,225,0.50);
+                          font-weight: 700;
+                          margin-left: 12px;
+                      }
+                  }
+              }
+              .picture{
+                  margin: 10px -30px;
+                  display: flex;
+                  justify-content: space-evenly;
+                  div{
+                      background: url('../../assets/images/ios2/newlist/wful\ \(24\).png');
+                      width: 181px;
+                      height: 69px;
+                      
+                  }
+                  div:nth-child(2){
+                    background: url('../../assets/images/ios2/newlist/wful\ \(21).png');
+                    width: 181px;
+                    height: 69px;
+                  }
+                  .icon1{
+                    position: relative;
+                    left: -45px;
+                }
+              }
+              .yihuzu{
+                  margin: 46px 45px;
+                  p{
+                      height: 40px;
+                      line-height: 40px;
+                      background: url('../../assets/images/ios2/new/index (9).png') no-repeat;
+                      span{
+                          width: 42px;
+                          height: 20px;
+                          font-family: Helvetica;
+                          font-size: 14px;
+                          color: #DAFFE8;
+                          letter-spacing: 0;
+                          font-weight: 400;
+                          margin-left: 40px;
+                      }
+                  }
+                  .divlist{
+                      display: flex;
+                      justify-content: space-around;
+                      div{margin-right: 10px;}
+                      div:nth-child(1){
+                          background: url('../../assets/images/ios2/new/index (10).png') ;
+                          width: 189px;
+                          height: 79px;
+                          ul{
+                             
+                              li{line-height: 40px;
+                                  display: flex;justify-content: flex-end;
+                                  span{
+                                      font-family: Helvetica;
+                                      font-size: 14px;
+                                      color: #DAFFE8;
+                                      letter-spacing: 0;
+                                      font-weight: 400;
+                                      width: 45px;
+                              }
+                          }
+                              
+                          }
+                      }
+                      div:nth-child(2){
+                          background: url('../../assets/images/ios2/new/index (11).png') ;
+                          width: 204px;
+                          height: 79px;
+                          ul{
+                             
+                              li{line-height: 40px;
+                                  display: flex;justify-content: flex-end;
+                                  span{
+                                      font-family: Helvetica;
+                                      font-size: 14px;
+                                      color: #DAFFE8;
+                                      letter-spacing: 0;
+                                      font-weight: 400;
+                                      width: 58px;
+                              }
+                          }
+                              
+                          }
+                      }
+                  }
+              }
+              .nurse{
+                  display: flex;
+                  justify-content: space-around;
+                  div{
+                    
+                      background: url('../../assets/images/ios2/newlist/wful\ \(26\).png') center center no-repeat;
+                      width: 172px;
+                      height: 64px;
+                      p:nth-child(2){
+                          margin-top: -16px;
+                      }
+                      p{
+                          margin-left: 30px;
+                        //   line-height: 23px;
+                          text-align: center;
+                          span{
+                            margin-left: 30px;
+                          }
+                          span:nth-child(1){
+                            font-family: MicrosoftYaHei-Bold;
+                            font-size: 16px;
+                            color: #2BFAFF;
+                            font-weight: 700;
+                          }
+                          span:nth-child(2){
+                            font-family: DINAlternate-Bold;
+                            font-size: 28px;
+                            color: #FFFFFF;
+                            letter-spacing: 0.74px;
+                            text-align: right;
+                            line-height: 28px;
+                            text-shadow: 0 0 10px rgba(17,255,246,0.81);
+                            font-weight: 700;
+                            i{
+                                opacity: 0.7;
+                                font-family: MicrosoftYaHei;
+                                font-size: 12.8px;
+                                color: #0DFDF0;
+                                letter-spacing: 0;
+                                font-weight: 400;
+                                font-style: normal;
+
+                            }
+                          }
+                      }
+                  }
+                  div:nth-child(2){
+                      position: relative;
+                      left: -50px;
+                      background: url('../../assets/images/ios2/newlist/wful\ \(8\).png') center center no-repeat;
+                      p{
+                      
+                      //   line-height: 23px;
+                      
+                    //   left: -50px;
+                      
+                        text-align: center;
+                 
+                
+                          background-size:172px 64px ;
+                          position: relative;
+                      
+                      //   line-height: 23px;
+                        // text-align: center;
+                        span{
+                          margin-left: 16px;
+                        }
+                        span:nth-child(1){
+                              display: inline-block;
+                            width: 56px;
+                            height: 20px;
+                           margin-left: 30px;
+                          font-family: MicrosoftYaHei-Bold;
+                          font-size: 14px;
+                          color: #2BFAFF;
+                          font-weight: 600;
+                        }
+                        span:nth-child(2){
+                            display: inline-block;
+                            width: 40px;
+                            height: 20px;
+
+                          font-family: DINAlternate-Bold;
+                          font-size: 28px;
+                          color: #FFFFFF;
+                          letter-spacing: 0.74px;
+                          text-align: right;
+                          line-height: 28px;
+                          text-shadow: 0 0 10px rgba(17,255,246,0.81);
+                          font-weight: 700;
+
+                          i{
+                              opacity: 0.7;
+                              font-family: MicrosoftYaHei;
+                              font-size: 12.8px;
+                              color: #0DFDF0;
+                              letter-spacing: 0;
+                              font-weight: 400;
+                              font-style: normal;
+                          }
+                        }
+                    }
+                  }
+              
+          }
+          .VillaThree{
+              margin: 10px 0;
+              width: 460px;
+              background: rgba(19, 34, 38, 0.8);
+              border: 1px solid #34CFB7;
+              height: 390px;
+              .threekuai{
+                  background: url('../../assets/ios/index\ \(13\).png');
+                  width: 441px;
+                  margin: 10px ;
+                  height: 140px; 
+                  ul{
+                      display: flex;
+                     justify-content: flex-end;
+                     li{
+                         width: 22%;
+                         margin-top: 50px;
+                         text-align: center;
+                     }
+                  
+                  }
+               
+                  p{
+                      height: 14px;
+                      font-size: 20px;
+  
+                  }     
+                  p:nth-child(2){
+                      color: #95BBAB;
+                      font-size: 12px;
+                      
+                  }
+              }
+             
+              .A1{
+                  background: url('../../assets/ios/index\ \(13\).png');
+                  width: 441px;
+                  height: 140px;                       
+                  margin-top: 80px;
+              }
+              .a1{
+                 
+                  margin-left: 140px;
+                  margin-top: -50px;
+                  li{
+                      margin-top: 40px;
+                      span{
+                          margin-top: 50px;
+                      }
+                  }
+                  
+              }
+              
+              .a2{
+                 margin-left: 140px;
+                 text-align: center;
+                 line-height: 20px;
+                 margin-top: 50px;
+              }
+              .a4{
+                  text-align: center;
+                  margin-left: 270px;
+                  line-height: 20px;
+              }
+             
+          }
+          .VillaFive{
+              width: 460px;
+              margin: 10px 0;
+              background: rgba(19, 34, 38, 0.8);
+              border: 1px solid #34CFB7;
+              height: 200px;
+              .title{
+                  height: 25px;
+              
+                  display: flex;
+                  justify-content: space-between;
+                 
+              }
+              .a3{
+                  width: 404px;
+                  height: 314px;
+                  margin-left: 30px;
+                 .jiechu{
+                     display: flex;
+                     justify-content: flex-end;
+                     align-items: center;
+                     .p1{
+                      background: url('../../assets/images/ios2/right/index\ \(4\).png');
+                      width: 100px;
+                      text-align: center;
+                      height: 25px;
+                      line-height: 25px;
+                    
+                     }
+                     .p2{
+                         margin-left: 6px;
+                      background: url('../../assets/images/ios2/right/index\ \(7\).png');
+                      width: 92px;
+                      height: 32px;
+                      text-align: center;
+                      line-height: 28px;
+                      color: #2E7A70;
+                      span{
+                          font-size: 20px;
+                          margin-right: 4px;
+                          color: #fff;
+                        
+                      }
+                     }
+                 }
+                 
+              }
+              // .a4{
+              //     background: url('../../assets/ios/index\ \(3\).png');
+              //     width: 404px;
+              //     height: 314px;
+              //    margin:12px 30px;
+  
+                  
+                 
+                  
+              // }
+              .a{
+                  
+                  text-align: center;
+              }
+              .a1{
+                  background: url('../../assets/ios/index\ \(7\).png');
+                  width: 111px;
+                  height: 111px;
+                  margin-left: 40px;
+                  position: relative;
+                  margin-top: 30px;     
+                  p{
+                      height: 111px;
+                      position: absolute;
+                      left: 30px;
+                      top: 45px;
+                  }              
+              //   li{
+              //       margin-left: 30px;
+              //       a{
+              //           margin-top: 50px;
+              //       }
+              //   }
+              }
+              .a2{
+                  position: relative;
+                  width: 200px;
+                  height: 100px;          
+                  margin-left: 180px;
+                  margin-top: -110px;
+                  p{
+                      height: 111px;
+                      position: absolute;
+                      left: 30px;
+                      top: 45px;
+                  } 
+                  li{                    
+                      line-height: 25px;      
+                      text-align: center;   
+                      margin-top: 4px;                                       
+                  }
+                  a{
+                      margin-left: 40px;
+                  }
+              }
+  
+                 .one{
+                    background: url('../../assets/ios/index\ \(1\).png') no-repeat;
+                    width: 160px;
+                    height: 24px;
+                 }
+                 .two{
+                     background: url('../../assets/ios/index\ \(2\).png');
+                     width: 160px;
+                     height: 24px;
+                 }
+                 .three{
+                  background: url('../../assets/ios/index\ \(5\).png');
+                  width: 160px;
+                  height: 24px;
+                 }
+                 .four{
+                      background: url('../../assets/ios/index\ \(6\).png');
+                      width: 160px;
+                      height: 24px;
+                 }
+             .a5{
+               position: relative;
+              width: 111px;
+              height: 111px;
+              background: url('../../assets/ios/index\ \(7\).png');
+              margin-left: 40px;
+              margin-top: 20px;               
+              li{
+                  text-align: center;
+                  top: 20px;
+              }
+             }
+             .a6{
+              width: 300px;
+              height: 100px;          
+              margin-left: 180px;
+              margin-top: -80px;
+              li{
+                  line-height: 25px;
+                  
+              }
+              a{
+                  margin-left: 40px;
+              }
+             }
+              .jobzhi{
+                  margin: 10px 14px;
+                  .jobul1{
+                      border: 1px solid #187E7C;
+                      display: flex;
+                      justify-content: space-between;
+                      color: #8EB6A6;
+                      height: 30px;
+                      line-height: 30px;
+                    
+                      li{
+                          margin-left: 25px;
+                          i{
+                              display: block;
+  
+                          }
+                      }
+                  }
+                  .jobul2{
+                      margin: 10px 0;
+                    li{
+                        display: flex;
+                        border: 1px solid #187E7C;
+                        justify-content: space-between;
+                        height: 30px;
+                        line-height: 30px;
+                        padding: 0 10px;
+                        
+                       
+                       
+                    }
+                  }
+              }
+          }
+          
+  
+      }
+      .VillaRight{
+          position: absolute;
+          top:-35px;
+          right: 10px;
+          font-size: 13px;
+          .VillaTwo{
+              margin: 10px 0;
+              width: 465px;            
+              height: 180px;
+              background: rgba(19,34,38,0.8);
+              border: 1px solid #34CFB7;
+              .twobackgrounde{
+                  width: 460px;
+                  height: 250px;
+                  // background-color: #1C2826;
+                  // background: url('../../assets/ios/index\ \(12\).png');
+                  background-image: url('../../assets/ios/index\ \(12\).png');
+                  background-repeat: no-repeat;
+                  //  background-size: 100% 100%;
+                  //  background-position: center 0;
+                  margin-top: 0px;
+                  margin-left: 60px;
+                  
+                  
+              }
+              .fourearchs{
+                  background: url('../../assets/ios/index\ \(3\).png');
+                  width: 404px;
+                  height: 314px;
+              }
+              .b{
+                  color: #BDE8D2;
+                 
+                  border-radius: 50%;
+                  margin-left: -112px;
+              
+                  
+                  li{
+                       text-align: center;
+                     line-height: 20px;
+                  }
+              }
+              .b1{
+                  color: #BDE8D2;
+                  width: 70px;
+                
+                  margin-top: -30px;     
+                  border-radius: 50%;
+                  
+                  margin-left: 30px;
+                  li{
+                  text-align: center;
+                  margin-top: 25px;
+                  }
+                  p{text-align: center;}
+              }
+              .b2{
+                  color: #BDE8D2;
+                  width: 60px;
+                  height: 60px;
+                  border-radius: 50%;
+                  
+                  margin-left:268px;
+                  margin-top: -80px;
+                  li{
+                      text-align: center;
+                  }
+              }
+              .b3{
+                  color: #BDE8D2;
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                 
+                  margin-top: 30px;
+                  margin-left: 80px;
+                  li{
+                      text-align: center;
+                  }
+              }
+              .b4{
+                  color: #BDE8D2;
+                  width: 100px;
+                  height: 100px;
+                  border-radius: 50%;             
+                  margin-left: 165px;
+                  margin-top: -80px;
+                  li{text-align: center;}
+              }
+          }
+          .VillaFour{
+              width: 465px;
+              height: 750px;
+              background: rgba(19, 34, 38, 0.8);
+              border: 1px solid #34CFB7;
+              .fourlist{
+                  background: url('../../assets/images/ios2/right/khll.png');
+                  width: 452px;
+                  height: 271px;
+                  margin: 10px 5px;
+                  
+                  .fourone{
+                      display: flex;
+                      justify-content: center;
+                      text-align: center;
+                      line-height: 30px;
+                    
+                     .wj{
+                         margin-top: -10px;
+                         background: url('../../assets/images/ios2/right/right\ \(1\).png');
+                         width: 98px;
+                         height: 30px;
+                         text-shadow: 0 0 10px #A98B1F,0 0 20px #A98B1F,0 0 30px #A98B1F;
+                     
+                     }
+                     .tj{
+                      margin-top: -10px;
+                          background: url('../../assets/images/ios2/right/right\ \(2\).png');
+                          width: 98px;
+                          height: 30px;
+                          text-shadow: 0 0 10px #00AA77,0 0 20px #00AA77,0 0 30px #00AA77;
+                     }
+                     
+                  }
+                  .fourthree{
+                      margin: -50px 8px ;
+                    
+                      ul{
+                          display: flex;
+                          justify-content: space-evenly;
+                          align-items: center;
+                          flex-wrap: wrap;
+                          li{
+                             color: #AEE5DC;
+                              height: 35px;
+                              text-align: center;
+                              align-items: center;
+                              width: 55%;
+                           
+                              display: flex;
+                              .tatol{
+                                  background: url('../../assets/images/ios2/right/index\ \(3\).png');
+                                  width: 80px;
+                                  height: 25px;
+                                  line-height: 25px;
+                              }
+                             .tatol2{
+                                  background: url('../../assets/images/ios2/right/index\ \(4\).png');
+                                  width: 100px;
+                                  height: 25px;
+                                  line-height: 25px;
+                             }
+                             .num{
+                                 background: url('../../assets/images/ios2/right/index (7).png');
+                                 width: 92px;
+                                 height: 32px;
+                                 margin-left: 4px;
+                                 display: block;
+                                 line-height: 28px;
+                                 color: #fff;
+                                 font-size: 19px;
+                                 span{
+                                     font-size: 13px;
+                                     color: #AEE5DC;
+                                     margin-left: 4px;
+                                 }
+                             }
+                             .aaa{
+                                 margin-left: 2px;
+                                 background: url('../../assets/images/ios2/right/index\ \(1\).png');
+                                 width: 139px;
+                                 height: 32px;
+                                 line-height: 32px;
+                                 span{margin-left: 20px;}
+                                 color: #fff;
+                             }
+                          }
+                          li:nth-child(odd){
+                              width: 45%;
+                          }
+                      }
+                    
+                  }
+                 
+              }
+              .yihuzu{
+                  background: url('../../assets/images/ios2/right/index\ \(2\).png');
+                  width: 452px;
+                  height: 141px;
+                  margin: 4px ;
+                  display: flex;
+                  justify-content: space-around;
+               
+                  .yuhubackground{
+                     margin: 30px 0px;
+                      background: url('../../assets/images/ios2/right/index\ \(5\).png');
+                      width: 189px;
+                      height:79px ;
+                      p{
+                         justify-content: flex-end;
+                         line-height: 34px;
+                         margin-right: 12px;
+                        
+                         display: flex;
+                         span{
+                             font-size: 19px;
+                             margin-left: 32px;
+                             line-height: 29px;
+                             i{
+                                 font-size: 13px;
+                                 color: #008D8F;
+                             }
+                         }
+                       
+                      }
+                  }
+              }
+              .nzjy{
+                  background: url('../../assets/images/ios2/right/khll.png');
+                  width: 452px;
+                  height: 271px;
+                  margin: 7px 5px;
+                  h3{
+                      text-align: center;
+                      color: #fff;
+                      font-weight: 600;
+                  }
+                  .date{
+                      background: url('../../assets/images/ios2/right/background.png');
+                      width: 429px;height: 69px;
+                      ul{
+                          display:flex;
+                          justify-content: space-around;
+                         
+                         
+                          li{
+                              line-height: 50px;
+                             
+                              p{
+                                color: #C2E6DB;
+                                 height: 10px;
+                                 
+                              }
+                              p:nth-child(2){
+                                  color: #fff;
+                              }
+                          }
+                      }
+                  }
+                  .dateone{
+                      display: flex;
+                      justify-content: space-between;
+                     margin: 10px 40px;
+                      .tatallist{
+                          width: 60%;
+                          
+                          ul{
+                              li{
+                                  height: 60px;
+                                 display: flex;
+                                 align-items: center;
+                                  i{
+                                      display: block;
+                                      width: 47px;
+                                      height: 46px;
+                                      background: url('../../assets/images/ios2/right/right (6).png');
+                                  }
+                                  p{
+                                      height: 30px;
+                                      margin-left: 10px;
+                                      display: flex;
+                                     font-size: 17px;
+                                     font-weight: 600;
+                                
+                                      span{
+                                          font-size: 12px;color:#7D9290 ;
+                                      }
+                                    
+                                  }
+                                  
+                              }
+                          }
+                      }
+                      .tatallist2{
+                          margin-left: 50px;
+                          ul{
+                              display: flex;
+                              justify-content: space-between;
+                              flex-wrap: wrap;
+                              li{
+                                  height: 40px;
+                                  width: 50%;
+                                  p{
+                                      display: flex;
+                                      align-items: center;
+                                      span{margin-left: 5px;color: #B2CBC4;}
+                                      span:nth-child(3){
+                                          color: #fff;
+                                          font-size: 17px;
+  
+                                      }
+                                  }
+                                  i{
+                                      background: url('../../assets/images/ios2/pne/one\ \(1\).png');
+                                      width: 18px;
+                                      height: 18px;
+                                      display: block;
+                                  }
+                              }
+                          }
+                      }
+                  }
+              }
+             
+          }
+          .VillaFive{
+              width: 460px;
+              margin: 10px 0;
+              background: rgba(19, 34, 38, 0.8);
+              border: 1px solid #34CFB7;
+              height: 700px;
+              .title{
+                  height: 25px;
+              
+                  display: flex;
+                  justify-content: space-between;
+                 
+              }
+              .a3{
+                  margin: 10px 0;
+                  background: url('../../assets/ios/index\ \(3\).png');
+                  width: 404px;
+                  height: 314px;
+                  margin-left: 30px;
+              }
+              .a4{
+                  background: url('../../assets/ios/index\ \(3\).png');
+                  width: 404px;
+                  height: 314px;
+                 margin:12px 30px;
+  
+                  
+                 
+                  
+              }
+              .a{
+                  
+                  text-align: center;
+              }
+              .a1{
+                  background: url('../../assets/ios/index\ \(7\).png');
+                  width: 111px;
+                  height: 111px;
+                  margin-left: 40px;
+                  position: relative;
+                  margin-top: 30px;     
+                  p{
+                      height: 111px;
+                      position: absolute;
+                      left: 30px;
+                      top: 45px;
+                  }              
+              //   li{
+              //       margin-left: 30px;
+              //       a{
+              //           margin-top: 50px;
+              //       }
+              //   }
+              }
+              .a2{
+                  position: relative;
+                  width: 200px;
+                  height: 100px;          
+                  margin-left: 180px;
+                  margin-top: -110px;
+                  p{
+                      height: 111px;
+                      position: absolute;
+                      left: 30px;
+                      top: 45px;
+                  } 
+                  li{                    
+                      line-height: 25px;      
+                      text-align: center;   
+                      margin-top: 4px;                                       
+                  }
+                  a{
+                      margin-left: 40px;
+                  }
+              }
+  
+                 .one{
+                    background: url('../../assets/ios/index\ \(1\).png') no-repeat;
+                    width: 160px;
+                    height: 24px;
+                 }
+                 .two{
+                     background: url('../../assets/ios/index\ \(2\).png');
+                     width: 160px;
+                     height: 24px;
+                 }
+                 .three{
+                  background: url('../../assets/ios/index\ \(5\).png');
+                  width: 160px;
+                  height: 24px;
+                 }
+                 .four{
+                      background: url('../../assets/ios/index\ \(6\).png');
+                      width: 160px;
+                      height: 24px;
+                 }
+             .a5{
+               position: relative;
+              width: 111px;
+              height: 111px;
+              background: url('../../assets/ios/index\ \(7\).png');
+              margin-left: 40px;
+              margin-top: 20px;               
+              li{
+                  text-align: center;
+                  top: 20px;
+              }
+             }
+             .a6{
+              width: 300px;
+              height: 100px;          
+              margin-left: 180px;
+              margin-top: -80px;
+              li{
+                  line-height: 25px;
+                  
+              }
+              a{
+                  margin-left: 40px;
+              }
+             }
+              .jobzhi{
+                  margin: 10px 14px;
+                  .jobul1{
+                      border: 1px solid #187E7C;
+                      display: flex;
+                      justify-content: space-between;
+                      color: #8EB6A6;
+                      height: 30px;
+                      line-height: 30px;
+                    
+                      li{
+                          margin-left: 25px;
+                          i{
+                              display: block;
+  
+                          }
+                      }
+                  }
+                  .jobul2{
+                      margin: 10px 0;
+                    li{
+                        display: flex;
+                        border: 1px solid #187E7C;
+                        justify-content: space-between;
+                        height: 30px;
+                        line-height: 30px;
+                        padding: 0 10px;
+                    }
+                  }
+              }
+          }
+      }
+  }
+}
+  .activelist{
+      font-family: MicrosoftYaHei-Bold;
+      font-size: 16px;
+      color: #FFFFFF !important;
+      text-align: center;
+      font-weight: 700;
+      background: url('../../assets/images/ios2/newlist/right\ \(11\).png');
+  }
+  .VideoChange{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    top: 150px;
+    left: 30%;
+}

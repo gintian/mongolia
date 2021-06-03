@@ -1,0 +1,1617 @@
+.Targetdatalist{
+    padding-left:10px;
+    padding-right:10px;
+    header{
+        background: url('../../assets/ios/index\ \(4\).png');
+        height: 54px;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        width: 100%;
+        left: 0;
+        right: 0;
+        h3{
+            text-align: center;
+            color: #fff;
+            line-height: 55px;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+  
+    }
+    footer{
+        background: url('../../assets/ios/index\ \(8\).png');
+        height: 39px;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+    .titles{
+        margin-top: 20px;
+        margin-left: 20px;
+        // position: relative;
+        // top: 30px;
+        // left: 30px;
+        background: url('../../assets/images/ios2/newlist/index\ \(13\).png') no-repeat;
+        
+        background-size:390px 37px ;
+        width:430px;
+        height: 37px;
+        p{
+            opacity: 0.9;
+            text-align: center;
+            line-height: 34px;
+            font-size: 16px;
+            margin-right: 240px;
+            color: #fff;
+           
+        }
+    }
+
+      .TargetdataLeft{
+          background: url('../../assets/images/ios2/newlist/background.png');
+          background-size:100% 100%;
+          float: left;
+          margin-top:-30px;
+          font-size: 13px;
+          width: 434px;
+          height: 974px;
+          .TargetdataOne{
+            .anjian{
+                margin: 2px 20px;
+                div{
+                    background: url('../../assets/images/ios2/newlist/index\ \(14\).png');
+                    width:393px ;
+                    height: 86px;
+                    margin-top: 6px;
+                    display: flex;
+                    justify-content: space-around;
+                    position: relative;
+                    p{
+                     
+                       position: absolute;
+                      
+                        top: 30px;
+                        text-align: center;
+                        font-family: Helvetica;
+                        font-size: 14px;
+                        color: #FFFFFF;
+                        letter-spacing: 0;
+                        font-weight: 400;
+                    }
+                    .num{
+                        font-family: MicrosoftYaHeiUI-Bold;
+                        font-size: 16px;
+                        color: #2BFAFF;
+                        text-align: center;
+                        text-shadow: 0 0 10px #10768D;
+                        font-weight: 700;
+                    }
+                    .nums{
+                        position: absolute;
+                        right: 50px;
+                        font-family: DINAlternate-Bold;
+                        font-size: 24px;
+                        color: #FFFFFF;
+                        letter-spacing: 1px;
+                        line-height: 28px;
+                        text-shadow: 0 0 10px rgba(17,255,246,0.81);
+                        font-weight: 700;
+                    }
+                }
+            }
+             
+            .nan{
+                display: flex;
+                justify-content: flex-end;
+                margin-top: -20px;
+                margin-right: 10px;
+               
+                p{
+                    display: flex;
+                    align-items: center;
+                    padding-left: 10px;
+                    margin-left: 40px;
+                    color: #fff;
+                    span{
+                        margin-left: 4px;
+                    }
+                    i{
+                        background: url('../../assets/images/ios2/right/icon.png');
+                        width: 28px;height: 28px;
+                        display: inline-block;
+                    }
+
+                }
+            }
+              .title{
+                  display: flex;
+                  justify-content: space-between;
+                  height: 40px;
+                  p:nth-child(1){
+                      background: url('../../assets/images/ios2/left/left\ \(15\).png');
+                      height: 26px;
+                      width: 181px;
+                  }
+                
+                 span{
+                     margin-right: 30px;
+                   
+                 }
+              }
+              .titlecontent{
+                  display: flex;
+                  justify-content: space-around;
+                  div{
+                     
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: center;
+                    
+                      
+                  }
+                  div p{
+                      font-size: 22px;
+                      color: #fff;
+                      padding-left: 10px;
+                      margin-top: 12px;
+                  
+                     
+
+                      span{
+                        display: flex;
+                        height: 30px;
+                        font-size: 13px;
+                        padding-top: 10px;
+                      
+                      }
+                  }
+                
+              }
+          }
+          .TargetdataTwo{
+          
+            margin-top: -20px;
+            width:491px ;
+            height:469px ;
+              .wenzi{
+                  float: right;
+              }
+              .room{
+                
+                
+                 
+                  div{
+                      i{
+                          background: url('../../assets/images/ios2/left/left\ \(14\).png');
+                          width: 146px;
+                          height: 126px;
+                      }
+                    
+                     
+                      ul {
+                          li{
+                              width: 200px;
+                              border: 1px solid red;
+                              height: 30px;
+                              display: flex;
+                              align-items: center;
+                            
+                            p:nth-child(1){
+                                text-align: center;
+                                line-height: 24px;
+                                color:#9DD5C1 ;
+                                background: url('../../assets/images/ios2/left/left\ \(9\).png');
+                                width: 80px;
+                                height:25px ;
+                             }
+                             p:nth-child(2){
+                                text-align: center;
+                                line-height: 30px;
+                                color:#9DD5C1 ;
+                                background: url('../../assets/images/ios2/left/left\ \(10\).png');
+                                width: 139px;
+                                height:32px ;
+                                margin-left: 10px;
+                                font-size: 17px;
+                                color: #fff;
+                                span{
+                                    margin-left: 12px;
+                                    color:#9DD5C1 ;
+                                    font-size: 14px;
+                                }
+                             }
+                          }
+                      }
+                  }
+              }
+          }
+          .TargetdataThree{
+             margin-top: 4px;
+            // background: url('../../assets/images/ios2/new/img\ \(6\).png');
+          
+              .bananzu{
+                   margin: 0 10px;
+                  .ullist1{display: flex;justify-content: space-around;
+                    width: 439px;
+                   
+                    line-height: 33px;
+                    background: url('../../assets/images/ios2/left/left\ \(13\).png');
+                    li{
+                        color:#9DD5C1 ;
+                        height: 33px;
+                        display: flex;
+                        align-items: center;
+                        i{
+                            margin-right: 4px;
+                            display: inline-block;
+                            width:6px ;
+                            height: 6px;
+                            background: url('../../assets/images/ios2/left/left\ \(6\).png');
+                        }
+                        
+                    }
+                 
+                
+                }
+                .ullist2{
+                    height: 118px;
+                    margin: 10px auto;
+                    overflow: auto;
+                    overflow-x: hidden;
+                    &::-webkit-scrollbar{width:0px;height:5px;border-radius: 5px;}
+                    &::-webkit-scrollbar-track{background-color: transparent;border-radius: 5px;height: 260px;}
+                    &::-webkit-scrollbar-thumb{background: #06966A;border-radius: 5px;}
+                    &::-webkit-scrollbar-thumb:hover{background: #06966A;}
+                    margin-top: 4px;
+                    li{
+                        color: #FAFCFB;
+                        margin-top: 4px;
+                        height: 34px;
+                        width: 439px;
+                        background: url('../../assets/images/ios2/left/left\ \(12\).png');
+                        display: flex;justify-content: space-around;align-items: center;
+                    
+                    }
+                }
+              }
+              .liuzhishui{
+                  .shi{
+                      background: url('../../assets/images/ios2/new/img\ \(5\).png') no-repeat;
+                      width: 107px;
+                      margin:10px 20px;
+                    
+                      height: 20px;
+                      font-family: Helvetica;
+                      font-size: 14px;
+                      color: #FFFFFF;
+                      text-align: center;
+                      font-weight: 400;
+                      height: 26px;
+                    
+                  
+                  }
+                 .left{
+                     margin-left: 34px;
+                     height:267px ;
+                     margin-top: -12px;
+                     width: 391.8px;
+                     div{
+                         ul{
+                             display: flex;
+                            li{
+                               width: 32%;
+                              
+                         
+                            //   display: flex;
+                            //   justify-content: space-around;
+                            //   align-items: center;
+                            margin-top: 20px;
+                             p{height: 16px;margin-top: 3px;}
+                              .putong{
+                                    margin-left:5px;
+                                  background: url('../../assets/images/ios2/newlist/index\ \(25\).png');
+                                  width: 104px;
+                                  height: 28px;
+                                  line-height: 28px;
+                                  font-family: MicrosoftYaHei-Bold;
+                                    font-size: 14px;
+                                    color: #FFFFFF;
+                                   
+                                    font-weight: 700;
+                              }
+                             
+                                .room{
+                                  position: relative;
+                                  top: -10px;
+                                    height: 18px;
+                                    display: flex;
+                                    justify-content: space-between;
+                                   
+                                    .roomtotal{
+                                         background: url('../../assets/images/ios2/new/index\ \(5\).png');
+                                         
+                                         width: 80px;
+                                         height: 25px;
+                                         text-align: center;
+                                        font-family: Helvetica;
+                                        font-size: 12px;
+                                        color: #FFFFFF;
+                                        letter-spacing: 0;
+                                        font-weight: 400;
+                                        line-height: 25px;
+                                    }
+                                    .single{
+                                        background: url('../../assets/images/ios2/new/index\ \(6\).png');
+                                        width: 159px;
+                                        height: 32px;
+                                        text-align: center;
+                                        font-size: 26px;
+                                        color: #FFFFFF;
+                                        letter-spacing: 0.93px;
+                                        text-align: center;
+                                        line-height: 28px;
+                                        text-shadow: 0 0 6px rgba(77,208,225,0.50);
+                                        font-weight: 700;
+                                        margin-left: 20px;
+                                     
+                                        
+                                    }
+                                }
+                               
+                                i{
+                                    margin-top: 40px;
+                                    display: block;
+                                    
+                                }
+                                .icon1{
+                                    background: url('../../assets/images/ios2/new/beijt\ \(1\).png');
+                                    width: 121px;
+                                    height: 105px;
+                                  
+                                }
+                                .icon2{
+                                    background: url('../../assets/images/ios2/new/beijt\ \(2\).png');
+                                    width: 121px;
+                                    height: 105px;
+                                    
+                                }
+                                .icon3{
+                                    background: url('../../assets/images/ios2/new/beijt\ \(3\).png');
+                                    width: 121px;
+                                    height: 105px;
+                                }
+                                p{
+                                  
+                                  
+                                    text-align: center;  font-size: 14px;
+                                span:nth-child(2){color: #FFFFFF;text-shadow: 0 0 10px #47fbff, 0 0 20px #47fbff, 0 0 30px #47fbff;margin-left: 20px;}
+                                }
+                                .total{
+                               
+                                
+                                    color: #00FFFF;
+                                }
+                              .yishiy{
+                                  color: #FF7A38;
+                              }
+                              .free{
+                                  color: #00FC9E;
+                              }
+                              .www{
+                               
+                                  margin-top: 16px;
+                              }
+                            
+                            }
+                            .list{
+                                background: url('../../assets/images/ios2/newlist/back\ \(4\).png');
+                                width: 132px;
+                                height:269px ;
+                                position: absolute;
+                                margin-top: -30px;
+                                left: 16px;
+                                margin-left:17px;
+                                    #shuibotu1{
+                                        background: url('../../assets/images/ios2/newlist/back\ \(3\).png');
+                                        width: 99px;
+                                        height: 94px;
+                                        margin: 30px auto 0;
+                                       
+                                    }
+
+                              
+                              }
+                              .lists{
+                                background: url('../../assets/images/ios2/newlist/back\ \(1\).png');
+                                width: 132px;
+                                height:269px ;
+                                position: absolute;
+                                margin-top: -30px;
+                                left: 148px;
+                                margin-left:17px;
+                                #shuibotu2{
+                                    background: url('../../assets/images/ios2/newlist/back\ \(3\).png');
+                                    width: 99px;
+                                    height: 94px;
+                                    margin: 30px auto 0;
+                                   
+                                }
+                              }
+                              .listss{
+                                background: url('../../assets/images/ios2/newlist/back\ \(2\).png');
+                                width: 132px;
+                                height:269px ;
+                                position: absolute;
+                                margin-top: -30px;
+                                left: 280px;
+                                margin-left:17px;
+                                #shuibotu3{
+                                    background: url('../../assets/images/ios2/newlist/back\ \(3\).png');
+                                    width: 99px;
+                                    height: 94px;
+                                    margin: 30px auto 0;
+                                   
+                                }
+                              }
+                         }
+                     }
+                 }
+              }
+          }
+          .Targetdatafour{
+            background: rgba(19, 34, 38, 0.8);
+            margin: 10px 0;
+            width: 455px;
+            border: 1px solid #33D7BB;
+            height: 178px;
+          
+           
+            .divlist{
+                margin: 0px 30px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                div:nth-child(1){
+                    margin-top: -8px;
+                    img{
+                        width: 135px;
+                        height: 135px;
+                    }
+
+                    
+                }
+                div:nth-child(2){
+                    margin-right: -15px;
+                    ul{
+                        margin-right: -27px;
+                        li{
+                            display: flex;
+                            align-items: center;
+                            height: 40px;
+                           .p1{
+                               
+                                text-align: center;
+                                line-height: 24px;
+                                color:#9DD5C1 ;
+                                background: url('../../assets/images/ios2/left/left\ \(9\).png');
+                                height:25px ;
+                                width: 80px;
+                                font-size: 10px;
+                             }
+                             .p2{
+                                 margin-left: 10px;
+                                background: url('../../assets/images/ios2/left/left\ \(4\).png');
+                                height: 32px;
+                                line-height: 32px;
+                                width: 102px;
+                                text-align: center;
+                                color: #fff;
+                                font-size: 17px;
+                             }
+                             
+
+                        }
+                        li:nth-child(2){
+                           
+                            line-height: 28px;
+                            color: #C4C6C4;
+                            p{
+                               
+                                padding: 0 10px;
+                               display: flex;
+                               justify-content: space-between;align-items: center;
+                                background: url('../../assets/images/ios2/left/left\ \(1\).png') no-repeat;
+                                width: 247px;
+                                height: 28px;
+                                span:nth-child(2){
+                                    margin-right: 30px;
+                                    font-size: 16px;
+                                    i{
+                                        color:#02C8BB ;
+                                        font-size: 13px;
+                                    }
+
+                                }
+                                
+                            }
+                        }
+                        li:nth-child(3){
+                            color: #C4C6C4;
+                            line-height: 28px;
+                            p{
+                                display: flex;
+                                justify-content: space-between;align-items: center;
+                                padding: 0 10px;
+                                background: url('../../assets/images/ios2/left/left\ \(2\).png') no-repeat;
+                                width: 247px;
+                                height: 28px;
+                                span:nth-child(2){
+                                    font-size: 16px;
+                                    margin-right: 30px;
+                                    i{
+                                        color:#02C8BB ;
+                                        font-size: 13px;
+                                    }
+
+                                }
+                            }
+                        }
+                      
+                    }
+
+                }
+            }
+          }
+          .TargetdataFive{
+            background: rgba(19, 34, 38, 0.8);
+              width: 455px;
+              margin: 10px 0;
+              border: 1px solid #2AA28D;
+              height: 160px;
+              .ulistsss{
+                  margin-top: -7px;
+                  color: #fff;
+                  display: flex;
+                  justify-content: space-evenly;
+                  p{
+                      display: flex;
+                      align-items: center;
+                      color: #778D8C;
+                      span{
+                          font-size:15px ;
+                          margin-left: 6px;
+                          color: #fff;
+                       
+                
+                      }
+                      i{
+                          background: url('../../assets/images/ios2/right/icon.png');
+                          width: 28px;
+                          height: 28px;
+                          display: inline-block;
+                          margin-right: 5px;
+                         
+                      }
+                  }
+              }
+              .ullist1{
+                margin: 0 10px;
+                display: flex;justify-content: space-around;width: 438px;line-height: 36px;
+                background: url('../../assets/images/ios2/right/right\ \(7\).png');
+                color: #BAEBD2;
+                i{
+                    background: url('../../assets/images/ios2/right/right\ \(3\).png');
+                    width: 6px;
+                    height: 12px;
+                    display: inline-block;
+                    margin-right: 4px;
+                }
+            }
+            .ullist2{
+                height: 40px;
+                margin: 10px auto;
+                overflow: auto;
+                overflow-x: hidden;
+                &::-webkit-scrollbar{width:0px;height:5px;border-radius: 5px;}
+                &::-webkit-scrollbar-track{background-color: transparent;border-radius: 5px;height: 260px;}
+                &::-webkit-scrollbar-thumb{background: #06966A;border-radius: 5px;}
+                &::-webkit-scrollbar-thumb:hover{background: #06966A;}
+                margin-top: -3px;
+                li{
+                
+                    color: #FAFCFB;
+                    margin: 6px 10px;
+                    height: 28px;
+                    width: 437px;
+                    background: url('../../assets/images/ios2/right/right\ \(4\).png');
+                    display: flex;justify-content: space-around;align-items: center;
+                
+                }
+            }
+              
+          }
+          .TargetdataSix{
+            background: url('../../assets/images/ios2/new/index\ \(1\).png');
+            width: 491px;
+            height: 278px;
+            margin: 10px 0;
+            border: 1px solid #2AA28D;
+          
+            height: 220px;
+            .title{
+                display: flex;
+                justify-content: space-between;
+                height: 40px;
+                p:nth-child(1){
+                    background: url('../../assets/images/ios2/left/left\ \(15\).png');
+                    height: 26px;
+                    width: 181px;
+                }
+            }
+            .qu{
+                display: flex;
+                justify-content: flex-end;
+                margin-top: -20px;
+                margin-right: 14px;
+                color: #fff;
+                p:nth-child(1){
+                    background: url('../../assets/images/ios2/right/right\ \(2\).png');
+                    width: 98px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+                p:nth-child(2){
+                    background: url('../../assets/images/ios2/right/right\ \(1\).png');
+                    width: 98px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+              
+            }
+            .ullist{
+                ul{
+                    display: flex;
+                    justify-content: space-around;align-items: center;
+                    margin: 0px 12px;
+                    li{
+                      
+                         margin:0 2px ;
+                        background: url('../../assets/images/ios2/right/right\ \(5\).png');
+                        text-align: center;
+                        width: 87px;
+                        height: 150px;
+                        p{
+                            height: 40px;
+                            padding-top: 40px;
+                            text-align: left;
+                            margin-left: 10px;
+                           color: #A1D5C1;
+                           width: 62px;
+                           font-size: 12px;
+                        }
+                        p:nth-child(1){
+                            position: relative;
+                            top: 30px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            
+          }
+          .Currentsituation{
+            width: 491px;
+            height: 278px;
+            margin: 45px 0px;
+            .topTitle{
+              background-image: linear-gradient(180deg, rgba(2,177,255,0.00) 0%, rgba(2,177,255,0.30) 100%);
+              border: 1px solid rgba(6,170,99,0.70);
+              width: 127px;
+              height: 24px;
+              p{
+                 margin-top: 3px;
+                  opacity: 0.9;
+                  font-family: MicrosoftYaHeiUI-Bold;
+                  font-size: 14px;
+                  color: #FFFFFF;
+                  text-align: center;
+                  font-weight: 700;
+              }
+            }
+            .topContent{
+               
+               display: flex;position: relative;
+               
+                margin: 4px auto;
+                .man{
+                    background: url('../../assets/images/ios2/newlist/index\ \(26\).png');
+                    width: 208px;
+                    height: 34px;
+                    span{
+                        font-family: MicrosoftYaHei-Bold;
+                        font-size: 16px;
+                        color: #2BFAFF;
+                        font-weight: 700;
+                    }
+                    span:nth-child(2){
+                        font-family: DINAlternate-Bold;
+                        font-size: 22px;
+                        color: #FFFFFF;
+                        letter-spacing: 0.79px;
+                        text-align: right;
+                        line-height: 28px;
+                        text-shadow: 0 0 10px rgba(17,255,246,0.81);
+                        font-weight: 700;
+                    }
+                }
+                .woman{
+                    position: absolute;
+                    right: 74px;
+                    
+                    background: url('../../assets/images/ios2/newlist/index\ \(27\).png');
+                    width: 208px;
+                    height: 34px;
+                    span{
+                        font-family: MicrosoftYaHei-Bold;
+                        font-size: 22px;
+                        color: #FFFFFF;
+                        font-weight: 700;
+                    }
+                    span:nth-child(2){
+                        font-family: DINAlternate-Bold;
+                        font-size: 16px;
+                        color: #2BFAFF;
+                        letter-spacing: 0.79px;
+                        text-align: right;
+                        line-height: 28px;
+                        text-shadow: 0 0 10px rgba(17,255,246,0.81);
+                        font-weight: 700;
+                    }
+                   
+                }
+                p{
+                
+                    span{
+                      margin-left:12px;
+                    }
+                    width: 120px;
+                    display: flex;
+                    justify-content: space-around;
+                    margin-left: 20px;
+                    align-items: center;
+                 
+                  .icon1{
+                      width: 28px;
+                      height: 28px;
+                      display: block;
+                      background: url('../../assets/images/ios2/new/img (14).png');
+                  }
+                  .icon{
+                    width: 28px;
+                    height: 28px;
+                      display: block;
+                      background: url('../../assets/images/ios2/new/img (15).png');
+                  }
+                    
+                    span:nth-child(2){
+                      opacity: 0.7;
+                      font-family: MicrosoftYaHeiUI;
+                      font-size: 12px;
+                      color: #CAF4FF;
+                      letter-spacing: 0;
+                      line-height: 16px;
+                      font-weight: 400;
+                  }
+                  span:nth-child(3){
+                      font-family: DINAlternate-Bold;
+                      font-size: 16px;
+                      color: #FFFFFF;
+                      letter-spacing: 0.57px;
+                      line-height: 28px;
+                      text-shadow: 0 0 6px 
+                  }
+                }
+               
+            }
+
+            .qinshu{
+                margin: -20px 30px;
+                ul{
+                    display: flex;
+                    // justify-content: space-around;
+                    flex-wrap: wrap;
+                    // font-size: 12px;
+                    li{
+                        width: 184px;
+                        background: url('../../assets/images/ios2/newlist/index\ \(28\).png') no-repeat left center;
+                        background-size: 184px auto;
+                        height: 38px;
+                        margin:2px 5px;
+                        line-height: 40px;
+                        text-align: center;
+                       span:nth-child(1){
+                        //    display: inline-block;
+                        //    width: 140px;
+                        //    height: 40px;
+                        //    text-align: justify;
+                        //     text-justify: newspaper;
+                        //     word-break: break-all;
+                        font-family: MicrosoftYaHei-Bold;
+                        font-size: 12px;
+                        color: #2BFAFF;
+                        font-weight: 700;
+                        line-height: 20px;
+                       }
+                       span:nth-child(2){
+                        font-family: DINAlternate-Bold;
+                        font-size: 12px;
+                        color: #FFFFFF;
+                        letter-spacing: 0.79px;
+                        text-align: right;
+                        line-height: 10px;
+                        text-shadow: 0 0 10px rgba(17,255,246,0.81);
+                        font-weight: 700;margin-left: 1px;
+                       }
+                        
+                        
+                    }
+                    li:nth-child(2){
+                        background: url('../../assets/images/ios2/newlist/index\ \(29\).png') no-repeat left center;
+                        background-size: 184px auto;
+                    }
+                    li:nth-child(3){
+                        background: url('../../assets/images/ios2/newlist/index\ \(30\).png') no-repeat left center;
+                        background-size: 184px auto;
+                    }
+                    li:nth-child(4){
+                        background: url('../../assets/images/ios2/newlist/index\ \(31\).png') no-repeat left center;
+                        background-size: 184px auto;
+                    }
+                }
+            }
+        }
+        .topEcharts{
+            position: relative;
+            width: 100%;
+            height: 180px;
+            .ct2_contentBJ{
+                float:left;
+                width: 154px;
+                height: 149px;
+                margin: 0px 120px;
+                padding: 0;
+                background: url('../../assets/images/ios2/newlist/index\ \(1\).png') no-repeat center 0px;
+                // animation:turn 1.5s linear infinite;
+            }
+            #personEcharts{
+              
+              height: 180px;
+              position: absolute;
+              width: 400px;
+                z-index: 1;
+                top: 28px;
+                left: 45px;
+            }
+        }
+        
+      }
+      .TargetdataContentw{
+      
+        // background: rgba(19, 34, 38, 0.8);
+       
+         width: 1000px;
+         position: absolute;
+         left: 460px;
+         display: flex;
+        //   left: 480px;
+        //   border: 1px solid #10B7A4;
+        
+        //   height: 220px;
+        //   top: 60px;
+        .person{
+            background: url('../../assets/images/ios2/new/img\ \(1\).png');
+            width: 110px;
+            height: 26px;
+            text-align: center;
+            margin-left: 10px;
+            p{
+                opacity: 0.9;
+                font-family: MicrosoftYaHeiUI-Bold;
+                font-size: 14px;
+                color: #FFFFFF;
+                text-align: center;
+                font-weight: 700;
+            }
+        }
+          .TargetdataContentone{
+              margin:0 6px;
+              width: 484px;
+              height: 216px;
+              background: url('../../assets/images/ios2/newlist/content\ \(1\).png');
+           position: relative;
+              .dangerous{
+                background: url('../../assets/images/ios2/newlist/index\ \(3\).png');
+                width: 171px;
+                height: 27px;
+                right: 30px;
+                margin-top: -24px;
+                line-height: 27px;
+                font-family: MicrosoftYaHeiUI-Bold;
+    
+                position: absolute;
+             
+                p{
+                     text-align: center;
+                     font-size: 17px;
+                     color: #FFFB87;
+                     text-align: center;
+                     text-shadow: 0 0 10px #C4B611;
+                     font-weight: 700;
+                }
+              }
+              .duixiang{
+                  margin: 16px 30px;
+                  display: flex;
+                  justify-content: space-around;
+                //   align-items: center;
+                  div{
+                 
+                      ul{
+                          li{
+                            display: flex;
+                            font-family: MicrosoftYaHeiUI-Bold;
+                            font-size: 14px;
+                            color: #2BFAFF;
+                          
+                            letter-spacing: 0;
+                            font-weight: 700;
+                            text-shadow: 0 0 10px #10768D;
+                            height: 36px;
+                            span:nth-child(1){
+                                width: 72px;
+                                height: 23px;
+                                font-family: MicrosoftYaHeiUI-Bold;
+                                font-size: 18px;
+                                color: #2BFAFF;
+                                text-shadow: 0 0 10px #10768D;
+                                font-weight: 700;
+                            }
+                            span:nth-child(2){
+                                font-family: MicrosoftYaHei-Bold;
+                                font-size: 18px;
+                                color: #FFFFFF;
+                                letter-spacing: 0.63px;
+                                line-height: 28px;
+                                text-shadow: 0 0 10px rgba(17,255,246,0.81);
+                                font-weight: 700;
+                                margin-left: 10px;
+                            }
+                          }
+                      }
+                  }
+              }
+              
+            }
+            .TargetdataContenttwo{
+                margin: 0 6px;
+                width: 484px;
+                height: 216px;
+                background: url('../../assets/images/ios2/newlist/content\ \(1\).png');
+                .shext{
+                    background:url('../../assets/images/ios2/new/img\ \(38\).png') ;
+                    width: 381px;
+                    height:28px ;
+                    margin: 12px;
+                    display: flex;
+                    justify-content: space-between;
+                    p{padding: 0 14px;color: #98CBB8;}
+                }
+                ul{
+                    padding-left: 10px;
+                    margin: 2px 12px;
+                    display: flex;
+                    justify-content: space-between;
+                  
+                    flex-wrap: wrap;
+                    li{
+                        margin-top:6px ;
+                         display: flex;
+                         align-items: center;
+                        margin-top: 14px;
+                         width: 50%;
+                        height:28px ;
+                        i{
+                          
+                            background: url('../../assets/images/ios2/newlist/index\ \(5\).png');
+                            width: 37px;
+                            height: 37px;
+                        }
+                        p{margin: 10px 6px;}
+                        p:nth-child(2){
+                            font-family: MicrosoftYaHeiUI-Bold;
+                            font-size: 18px;
+                            color: #2BFAFF;
+                            text-align: center;
+                            text-shadow: 0 0 10px #10768D;
+                            font-weight: 700;
+                        }
+                        p:nth-child(3){
+                            width: 60px;
+                            height: 27px;
+                            opacity: 0.46;
+                            background: rgba(8,43,58,0.60);
+                            border: 1px solid #47FBFF;
+                            box-shadow: inset 0 -12px 10px 0 rgba(55,255,196,0.66), inset 0 0 12px 0 #47FBFF;
+                            border-radius: 3px;
+                            text-align: center;
+                            line-height: 27px;
+                            font-size: 14px;
+                            color: #FFFFFF;
+                            text-shadow: 0 0 10px #10768D;
+                        }
+                    }
+                }
+            }
+          
+        
+      }
+      .TargetdataRight{
+          margin-top:-30px;
+          float: right;
+          background: url('../../assets/images/ios2/newlist/background.png');
+          background-size:100% 100%;
+          width: 434px;
+          height: 974px;
+          font-size: 13px;
+        //   当前留置对象
+        .Currentsituation{
+            width: 491px;
+            height: 278px;
+          
+            .title{
+                p{
+                    opacity: 0.9;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #fff;
+                    width: 151px;
+                    line-height: 26px;
+                    font-weight: 450;
+                    background: url('../../assets/images/ios2/new//img\ \(24\).png') no-repeat center center;
+                }
+            }
+            .title2{
+                margin:10px 22px;
+                width: 383px;
+                height: 44px;
+                background: url('../../assets/images/ios2/newlist/index\ \(9\).png') no-repeat center center;
+                line-height: 40px;
+                p{
+                    font-size: 16px;
+                    color: #00DEE3;
+                    letter-spacing: 0;
+                    font-weight: 400;
+                    margin-left: 35px;
+                    line-height: 40px;
+                    text-align: left;
+                    position: relative;
+                    span{
+                        position: absolute;
+                        right: 60px;
+                        top: 6px;
+                        font-size: 24px;
+                        color: #FFFFFF;
+                        letter-spacing: 0.86px;
+                        line-height: 28px;
+                        text-shadow: 0 0 6px #4dd0e180;
+                    }
+                }
+            }
+            .echarts{
+                display: flex;
+                // position: relative;
+                // background: url('../../assets/images/ios2/newlist/index\ \(12\).png') no-repeat center 30px;
+                // width: 100%;
+                // height: 100%;
+                .dangerous{
+                    margin-top: 30px;
+                    ul{
+                        li{
+                            margin-top:5px;
+                           background: url('../../assets/images/ios2/newlist/index\ \(30\).png');
+                           width: 174px;
+                           line-height: 38px;
+                           height: 38px;
+                           display: flex;
+                           justify-content: space-around;
+                           span:nth-child(1){
+                            font-family: MicrosoftYaHei-Bold;
+                            font-size: 16px;
+                            color: #2BFAFF;
+                            font-weight: 700;
+                           }
+                           span:nth-child(2){
+                            font-family: DINAlternate-Bold;
+                            font-size: 22px;
+                            color: #FFFFFF;
+                            letter-spacing: 0.79px;
+                            text-align: right;
+                            line-height: 38px;
+                            text-shadow: 0 0 10px rgba(17,255,246,0.81);
+                            font-weight: 700;
+                           }
+                        }
+                        li:nth-child(2){
+                            background: url('../../assets/images/ios2/newlist/index\ \(31\).png');
+                        }
+                        li:nth-child(3){
+                            background: url('../../assets/images/ios2/newlist/index\ \(29\).png');
+                        }
+                    }
+                }
+                .ct2_content{
+                    position: relative;
+                    height: 100%;
+                    .ct2_contentBJ{
+                        position: absolute;
+                        top:-3px;
+                        float:left;
+                        width:178px;
+                        height:185px;
+                        margin: 0px 20px;
+                        padding: 0;
+                        background: url('../../assets/images/ios2/new/wxbj.png') no-repeat center center;
+                        background-size:90%;
+                        animation:turn 1.5s linear infinite;
+                        
+                    }
+                    #r1Echarts_content{
+                      
+                        padding: 0px;
+                        width: 120px;
+                        height: 121px;
+                        margin: 29px 50px;
+                    
+                        // animation:turn 1.5s linear infinite;
+                          
+                   
+                    }
+                }
+            }
+          
+          
+
+        }
+        @keyframes turn{
+            0%{-webkit-transform:rotate(0deg);}
+            25%{-webkit-transform:rotate(90deg);}
+            50%{-webkit-transform:rotate(180deg);}
+            75%{-webkit-transform:rotate(270deg);}
+            100%{-webkit-transform:rotate(360deg);}
+        }
+          .TargetdataTwo{
+            width: 491px;
+            height: 337px;
+         
+            margin: -10px 0;
+            .title{
+                p{
+                    opacity: 0.9;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #fff;
+                    width: 104px;
+                    line-height: 26px;
+                    font-weight: 450;
+                    background: url('../../assets/images/ios2/new//img\ \(20\).png') no-repeat center center;
+                }
+            }
+            .echats{
+                background: url('../../assets/images/ios2/newlist/index\ \(10\).png');
+                width: 392px;
+                height: 250px;
+                margin: 10px 20px;
+                display: flex;
+                .ct2_content{
+                    position: relative;
+                    //background: url('../../assets/images/ios2/newlist/index\ \(12\).png') no-repeat center 0px;
+                    width: 144px;
+                    height: 144px;
+                    //animation:turn 1.5s linear infinite;
+                  
+                }
+                
+            }
+     
+            .ct2_content{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                .ct2_contentBJ{
+                    float:left;
+                    width: 144px;
+                    height: 144px;
+                    margin: 40px 20px;
+                    padding: 0;
+                    background: url('../../assets/images/ios2/newlist/index\ \(12\).png') no-repeat center 0px;
+                    animation:turn 1.5s linear infinite;
+                }
+                .right{margin-left: 70px;}
+                #r2Echarts_content,#r3Echarts_content{
+                    width: 144px;
+                    height: 144px;
+                    position: absolute;
+                    z-index: 1;
+                    top:40px;
+                    left: 20px;
+                }
+                #r3Echarts_content{
+                    left: 70px;
+                    
+                }
+                .total{
+                    position: absolute;
+                    left: 230px;
+                    top:67px;
+                    font-size: 14px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    span{
+                        color:#DAFFE8;
+                        display: inline-block;
+                        margin-top: -5px;
+
+                    }
+                    .totalNum{
+                        opacity: 0.9;
+                        font-size: 32px;
+                        color: #FFFFFF;
+                        letter-spacing: 0;
+                        text-shadow: 0 0 13px rgba(18,253,240,0.50);
+                    }
+                }
+                .legent_bg{
+                    // z-index: -1;
+                    position: absolute;
+                    width: 132px;
+                    height: 28px;
+                    top:200.2px;
+                    left: 30px;
+                    background: url('../../assets/images/ios2/newlist/index\ \(11\).png') no-repeat center center;
+                    p{
+                        color:#00FFFF;
+                        position: absolute;
+                        top: 5px;
+                        left: 25px;
+                    }
+                }
+                .lg2{
+                    left: 228px;
+                }
+                .legendNum{
+                    position: absolute;
+                    font-size: 14px;
+                    top:205px;
+                    left: 141px;
+                    color: #06dff3;
+                }
+                .ln2{
+                    left: 339px;
+                }
+
+            }
+          }
+          .TargetdataFour{
+              background: rgba(19, 34, 38, 0.8);
+              width: 455px;
+              height: 210px;
+              border: 1px solid #33D7BB;
+              .title{
+                display: flex;
+                justify-content: space-between;
+                height: 40px;
+                span{
+                    margin-right: 30px;
+                }
+            }
+            .tshi{
+               
+                .tshiul{
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    margin-top: -10px;
+                   
+                    li{
+                    
+                       
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                     
+                       
+                        div:nth-child(1){
+                            background: url('../../assets/images/ios2/right/right\ \(6\).png');
+                            width: 47px;
+                            height: 46px;
+                            margin-top: 4px;
+                        }
+                        div:nth-child(2){
+                           
+                            p{
+                                margin-left: 10px;
+                              
+                            }
+                            p:nth-child(1){
+                                color: #fff;
+                                font-size: 16px;
+                                height: 16px;
+                                font-weight: 500;
+                                margin-top:px;
+                            }
+                            p:nth-child(2){
+                                color: #fff;
+                                font-size: 13px;
+                                color: #79A0A6;
+                            }
+                           
+                        }
+
+                    }
+                }
+                .tshiul2{
+                    margin: 10px 10px;
+                    .ullist1{
+                        display: flex;justify-content: space-around;width: 438px;line-height: 36px;
+                        background: url('../../assets/images/ios2/right/right\ \(7\).png');
+                        color: #BAEBD2;
+                        i{
+                            background: url('../../assets/images/ios2/right/right\ \(3\).png');
+                            width: 6px;
+                            height: 12px;
+                            display: inline-block;
+                            margin-right: 4px;
+                        }
+                    }
+                    .ullist2{
+                        height: 74px;
+                        margin: 10px auto;
+                        overflow: auto;
+                        overflow-x: hidden;
+                        &::-webkit-scrollbar{width:0px;height:5px;border-radius: 5px;}
+                        &::-webkit-scrollbar-track{background-color: transparent;border-radius: 5px;height: 260px;}
+                        &::-webkit-scrollbar-thumb{background: #06966A;border-radius: 5px;}
+                        &::-webkit-scrollbar-thumb:hover{background: #06966A;}
+                        margin-top: -3px;
+                        li{
+                            color: #FAFBFB;
+                            margin-top: 6px;
+                            height: 28px;
+                            width: 437px;
+                            background: url('../../assets/images/ios2/right/right\ \(4\).png');
+                            display: flex;justify-content: space-around;align-items: center;
+                        
+                        }
+                    }
+                }
+
+            }
+          }
+          .TargetdataFive{
+             background: rgba(19, 34, 38, 0.8);
+              width: 455px;
+              margin: 10px 0;
+              border: 1px solid #2AA28D;
+              height: 160px;
+              .ullist1{
+                margin: 0 10px;
+                display: flex;justify-content: space-around;width: 438px;line-height: 36px;
+                background: url('../../assets/images/ios2/right/right\ \(7\).png');
+                color: #BAEBD2;
+                i{
+                    background: url('../../assets/images/ios2/right/right\ \(3\).png');
+                    width: 6px;
+                    height: 12px;
+                    display: inline-block;
+                    margin-right: 4px;
+                }
+            }
+            .ullist2{
+               
+                height: 78px;
+                margin: 10px auto;
+                overflow: auto;
+                overflow-x: hidden;
+                &::-webkit-scrollbar{width:0px;height:5px;border-radius: 5px;}
+                &::-webkit-scrollbar-track{background-color: transparent;border-radius: 5px;height: 260px;}
+                &::-webkit-scrollbar-thumb{background: #06966A;border-radius: 5px;}
+                &::-webkit-scrollbar-thumb:hover{background: #06966A;}
+                margin-top: -3px;
+                li{
+                
+                    color: #FAFCFB;
+                    margin: 6px 10px;
+                    height: 28px;
+                    width: 437px;
+                    background: url('../../assets/images/ios2/right/right\ \(4\).png');
+                    display: flex;justify-content: space-around;align-items: center;
+                
+                }
+            }
+              
+          }
+          .TargetdataSix{
+            background: rgba(19, 34, 38, 0.8);
+            width: 455px;
+            margin: 10px 0;
+            border: 1px solid #2AA28D;
+          
+            height: 220px;
+            .title{
+                display: flex;
+                justify-content: space-between;
+                height: 40px;
+                p:nth-child(1){
+                    background: url('../../assets/images/ios2/left/left\ \(15\).png');
+                    height: 26px;
+                    width: 181px;
+                }
+            }
+            .qu{
+                display: flex;
+                justify-content: flex-end;
+                margin-top: -20px;
+                margin-right: 14px;
+                color: #fff;
+                p:nth-child(1){
+                    background: url('../../assets/images/ios2/right/right\ \(2\).png');
+                    width: 98px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+                p:nth-child(2){
+                    background: url('../../assets/images/ios2/right/right\ \(1\).png');
+                    width: 98px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                }
+              
+            }
+            .ullist{
+                ul{
+                    display: flex;
+                    justify-content: space-around;align-items: center;
+                    margin: 0px 12px;
+                    li{
+                      
+                         margin:0 2px ;
+                        background: url('../../assets/images/ios2/right/right\ \(5\).png');
+                        text-align: center;
+                        width: 87px;
+                        height: 150px;
+                        p{
+                            height: 40px;
+                            padding-top: 40px;
+                            text-align: left;
+                            margin-left: 10px;
+                           color: #A1D5C1;
+                           width: 62px;
+                           font-size: 12px;
+                        }
+                        p:nth-child(1){
+                            position: relative;
+                            top: 30px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            
+          }
+          .TargetdataSenven{
+            background: rgba(19, 34, 38, 0.8);
+            width: 455px;
+            margin: 10px 0;
+            border: 1px solid #2AA28D;
+            
+            height: 230px;
+            .jiance{
+                margin: 0 10px;
+                margin-top: -8px;
+                ul{
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    li{
+                        margin-top: 10px;
+                        background: url('../../assets/images/ios2/right/right\ \(8\).png') no-repeat;
+                        width: 189px;
+                     
+                        height: 79px;
+                        
+                        
+                        p{
+                            margin-left: 40px;
+                            height: 15px;
+                            line-height: 15px;
+                            font-size: 12px;
+                            color: #AAB5B4;
+                        }
+                        p:nth-child(1) i{
+                            background: url('../../assets/images/ios2/right/right\ \(9\).png');
+                            width: 61px;
+                            height: 15px;
+                            display: inline-block;
+                           
+                        }
+                        p:nth-child(1) span{
+                            margin-left: -50px;
+                            color: #fff;
+                           
+                        }
+
+                    }
+                }
+            }
+          }
+          .Targetdataeleven{
+            width: 491px;
+            height: 312px;
+         
+            .title{
+                p{
+                    opacity: 0.9;
+                    text-align: center;
+                    font-size: 14px;
+                    color: #fff;
+                    width: 160px;
+                    line-height: 26px;
+                    font-weight: 450;
+                    background: url('../../assets/images/ios2/new/img\ \(23\).png') no-repeat center center;
+                }
+            }
+            .title2{
+                margin: 10px 18px ;
+                width: 383px;
+                height: 44px;
+                background: url('../../assets/images/ios2/newlist/index\ \(9\).png') no-repeat center center;
+                line-height: 40px;
+                p{
+                    font-size: 14px;
+                    color: #DAFFE8;
+                    letter-spacing: 0;
+                    font-weight: 400;
+                    margin-left: 35px;
+                    position: relative;
+                    span{
+                        position: absolute;
+                        right: 40px;
+                        top: 4px;
+                        font-size: 24px;
+                        color: #FFFFFF;
+                        letter-spacing: 0.86px;
+                        line-height: 28px;
+                        text-shadow: 0 0 6px #4dd0e180;
+                    }
+                }
+            }
+          }
+      }
+      footer{
+        
+          .footprint{
+              width: 88px;
+              height: 106px;
+              margin: 0 auto;
+              margin-top: -100px;
+              background: url('../../assets//images/ios2/new/geanzhuizong.png');
+          }
+      }
+  }
