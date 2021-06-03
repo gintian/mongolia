@@ -1,0 +1,32 @@
+#seePlate {
+  width: 420px;
+  position: absolute;
+  left: 500px;
+  top: 80px;
+  .seePlate_top {
+    display: flex;
+    width: 100%;
+    .item {
+      flex: 1;
+      background: url("../../assets/header_img/title_bg1.png") center center
+        no-repeat;
+      background-size: 100% 100%;
+      color: $theme-color;
+      font-size: 17px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-align: center;
+    }
+
+    .acitve {
+      color: #f15f42;
+      background: url("../../assets/header_img/title_bg2.png") center center
+        no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+  .seePlate_content {
+    z-index: 1000;
+  }
+}

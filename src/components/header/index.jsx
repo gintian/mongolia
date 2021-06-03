@@ -1,35 +1,46 @@
 import React, { useState, useEffect } from "react";
 import "./style.scss";
 import { useDispatch, useMappedState } from "redux-react-hook";
+import Seeplate from "../../components/seeplate";
+
 function Header() {
   const dispatch = useDispatch();
   const [timeNow, setTime] = useState();
   const top_count = useMappedState((state) => state.top_navigation_count);
+  const top_page = useMappedState((state) => state.top_navigation_module);
   const navModule = [
     {
       modules_name: "资源图谱",
+      wherePage: "resourceMapping",
     },
     {
       modules_name: "视频监控",
+      wherePage: "videoMonitoring",
     },
     {
       modules_name: "人脸应用",
+      wherePage: "faceApplication",
     },
     {
       modules_name: "门禁应用",
+      wherePage: "accessControlApplications",
     },
 
     {
       modules_name: "实时定位",
+      wherePage: "realTimePositioning",
     },
     {
       modules_name: "电子巡更",
+      wherePage: "electronicPatrolling",
     },
     {
       modules_name: "消防管理",
+      wherePage: "fireManagement",
     },
     {
       modules_name: "数据看板",
+      wherePage: "dataBoard",
     },
   ];
 
@@ -77,7 +88,9 @@ function Header() {
   };
   // handle top
   const handle_top = (item, index) => {
+    console.log("点的哪个", item);
     dispatch({ type: "handleTop", top_navigation_count: index });
+    dispatch({ type: "handleModule", top_navigation_module: item.wherePage });
   };
   return (
     <div className="header">
@@ -121,6 +134,7 @@ function Header() {
           </div>
         </div>
       </div>
+      {top_page == "resourceMapping" ? <Seeplate /> : null}
     </div>
   );
 }
