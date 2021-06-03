@@ -18,7 +18,7 @@ class Targetdata extends Component {
       yearIn: [
         {
           attr: "留置人员年龄饼图",
-          name: "60以下",
+          name: "40以上",
           value: 14,
         },
         {
@@ -28,7 +28,7 @@ class Targetdata extends Component {
         },
         {
           attr: "留置人员年龄饼图",
-          name: "40以上",
+          name: "60以下",
           value: 14,
         },
       ], //底部饼图数据end
