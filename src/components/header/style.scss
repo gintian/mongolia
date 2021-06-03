@@ -17,7 +17,7 @@
   background-size: 100%;
   .header_line {
     margin-top: 8px;
-    background: url("../../assets/header_img/header_border.png");
+    background: url("../../assets/ownpic/header_border.png");
     height: 16px;
     background-size: 100% 100%;
   }
@@ -63,13 +63,13 @@
           width: 136px;
           transition: all 0.3s;
           font-size: 17px;
-          background: url("../../assets/header_img/title_bg1.png") center center
+          background: url("../../assets/ownpic/title_bg1.png") center center
             no-repeat;
         }
         //选中时
         .active_LI {
           color: #f15f42;
-          background: url("../../assets/header_img/title_bg2.png") center center
+          background: url("../../assets/ownpic/title_bg2.png") center center
             no-repeat;
         }
       }

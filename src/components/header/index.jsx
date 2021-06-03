@@ -101,13 +101,13 @@ function Header() {
             <div className="title_left">
               <h1>内蒙古纪委监委智慧留置区</h1>
               <img
-                src={require("../../assets/header_img/title_light.png").default}
+                src={require("../../assets/ownpic/title_light.png").default}
                 alt="light_bg"
               />
             </div>
             <div className="title_right_img">
               <img
-                src={require("../../assets/header_img/title_point.png").default}
+                src={require("../../assets/ownpic/title_point.png").default}
                 alt=""
               />
             </div>
