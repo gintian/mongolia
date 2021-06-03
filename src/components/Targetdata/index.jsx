@@ -107,7 +107,7 @@ class Targetdata extends Component {
       this.ShuiBO3();
     }, 1000);
     this.PersonEChats();
-    // this.getRight2();
+    this.getRight2();
   }
   componentWillMount() {}
   // 当前留置对象情况
@@ -372,9 +372,9 @@ class Targetdata extends Component {
       kanhuTotal: res.data,
     });
     res.data.forEach((element) => {
-      moreKanhuList += element.value;
+      moreKanhuList += element;
     });
-
+    console.log("我是最终参数", moreKanhuList);
     var num11 = res.data[0].value;
     var num22 = res.data[1].value;
 
