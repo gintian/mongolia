@@ -1161,7 +1161,7 @@
                         padding: 0;
                         background: url('../../assets/images/ios2/new/wxbj.png') no-repeat center center;
                         background-size:90%;
-                        animation:turn 1.5s linear infinite;
+                        // animation:turn 1.5s linear infinite;
                         
                     }
                     #r1Echarts_content{
@@ -1233,7 +1233,7 @@
                     margin: 40px 20px;
                     padding: 0;
                     background: url('../../assets/images/ios2/newlist/index\ \(12\).png') no-repeat center 0px;
-                    animation:turn 1.5s linear infinite;
+                    // animation:turn 1.5s linear infinite;
                 }
                 .right{margin-left: 70px;}
                 #r2Echarts_content,#r3Echarts_content{
@@ -1580,6 +1580,7 @@
                 line-height: 40px;
                 p{
                     font-size: 14px;
+                    text-align: left;
                     color: #DAFFE8;
                     letter-spacing: 0;
                     font-weight: 400;

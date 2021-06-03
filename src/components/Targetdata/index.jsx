@@ -84,7 +84,7 @@ class Targetdata extends Component {
       //根据留置房间编码获取留置人员信息
       DetainRiskInfo_total: 10, //系统评估符合智慧留置人数
       ConservePersonTotal: 0, //总节省看护人次
-      kanhuTotal: [{ value: 0 }, { value: 1 }], //总节省看护人次
+      kanhuTotal: [{ value: 48 }, { value: 12 }], //总节省看护人次
       //系统评估符合智慧留置人数
       riskList: {
         highNum: 8,
@@ -518,7 +518,8 @@ class Targetdata extends Component {
           </div>
 
           {/* 右边看板 */}
-          {/* <div className="TargetdataRight">
+          <div className="TargetdataRight">
+            {/* 对象安全风险评估 */}
             <div className="Currentsituation">
               <div className="titles">
                 <p>对象安全风险评估</p>
@@ -552,6 +553,7 @@ class Targetdata extends Component {
                 </div>
               </div>
             </div>
+            {/* 看护模式 */}
             <div className="TargetdataTwo">
               <div className="titles">
                 <p>看护模式</p>
@@ -579,6 +581,7 @@ class Targetdata extends Component {
                 </div>
               </div>
             </div>
+            {/* 智慧留置成本运行状态 */}
             <div className="Targetdataeleven">
               <div className="titles">
                 <p>智慧留置成本运行状态</p>
@@ -600,7 +603,7 @@ class Targetdata extends Component {
                 ></div>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* <footer>
             <div className="footprint"></div>
           </footer> */}
