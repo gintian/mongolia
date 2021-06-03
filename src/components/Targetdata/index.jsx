@@ -37,11 +37,11 @@ class Targetdata extends Component {
         mindRoomFreeNum: "4", //智慧留置房间空闲中中数量
         mindRoomTotalNum: "13", //智慧留置房间总数
         mindRoomUseNum: "9", //智慧留置房间使用中数量
-        mindRoomUsePercent: "0", //智慧留置房间使用率--只保留整数部分
+        mindRoomUsePercent: "0", //智慧留置房间使用率
         ordinaryRoomFreeNum: "2", //普通留置房间空闲中中数量
         ordinaryRoomTotalNum: "14", //普通留置房间总数
         ordinaryRoomUseNum: "12", //普通留置房间使用中数量
-        ordinaryRoomUsePercent: "0", //普通留置房间使用率--只保留整数部分
+        ordinaryRoomUsePercent: "0", //普通留置房间使用率
         roomTotalNum: "27", //留置室总数
         mindNum: "0",
         mindNumPercent: "0",
@@ -70,7 +70,7 @@ class Targetdata extends Component {
         mindRoomFreeNum: "4", //智慧留置房间空闲中中数量
         mindRoomTotalNum: "13", //智慧留置房间总数
         mindRoomUseNum: "9", //智慧留置房间使用中数量
-        usePercent: "100", //智慧留置房间使用率--只保留整数部分
+        usePercent: "100", //智慧留置房间使用率
       }, // 智慧滞留室 end
 
       // 智慧留置运行态势
@@ -107,6 +107,7 @@ class Targetdata extends Component {
       this.ShuiBO3();
     }, 1000);
     this.PersonEChats();
+    // this.getRight2();
   }
   componentWillMount() {}
   // 当前留置对象情况
@@ -360,6 +361,157 @@ class Targetdata extends Component {
       ],
     };
     option && myChart.setOption(option);
+  }
+  getRight2() {
+    let moreKanhuList;
+    //看护模式数据
+    let res = {
+      data: [{ value: 48 }, { value: 12 }],
+    };
+    this.setState({
+      kanhuTotal: res.data,
+    });
+    res.data.forEach((element) => {
+      moreKanhuList += element.value;
+    });
+
+    var num11 = res.data[0].value;
+    var num22 = res.data[1].value;
+
+    let chartDom = document.getElementById("r2Echarts_content");
+    let myChart = echarts.init(chartDom);
+    let option;
+    option = {
+      tooltip: {
+        trigger: "item",
+        formatter: "{a} <br/>{b}: {c} ({d}%)",
+      },
+      title: {
+        x: "left",
+        y: "center",
+        itemGap: 30,
+        textStyle: {
+          fontSize: 26,
+          fontWeight: "bolder",
+          color: "#000080",
+        },
+      },
+      color: ["#FFF64F", "#00B2CD"],
+      legend: {
+        show: false,
+        orient: "vertical",
+        itemGap: 0,
+        right: 50,
+        y: "center",
+        itemWidth: 20, // 设置图例图形的宽
+        itemHeight: 10,
+        selectedMode: false,
+        formatter: "{name}",
+      },
+      series: [
+        {
+          name: "智慧看护",
+          type: "pie",
+          radius: ["50%", "70%"],
+          avoidLabelOverlap: false,
+          label: {
+            normal: {
+              show: false,
+              position: "center",
+            },
+          },
+          labelLine: {
+            show: false,
+          },
+          data: [
+            {
+              value: num11,
+              name: "智慧看护",
+              label: {
+                normal: {
+                  show: true,
+                  formatter: "{d}%",
+                  textStyle: {
+                    fontSize: 16,
+                    fontWeight: "bolder",
+                  },
+                },
+              },
+            },
+            { value: moreKanhuList - num11, name: "近身看护" },
+          ],
+        },
+      ],
+    };
+    option && myChart.setOption(option);
+
+    let chartDom2 = document.getElementById("r3Echarts_content");
+    let myChart2 = echarts.init(chartDom2);
+    let option2;
+    option2 = {
+      tooltip: {
+        trigger: "item",
+        formatter: "{a} <br/>{b}: {c} ({d}%)",
+      },
+      title: {
+        x: "left",
+        y: "center",
+        itemGap: 30,
+        textStyle: {
+          fontSize: 4,
+          fontWeight: "bolder",
+          color: "#000080",
+        },
+      },
+      color: ["#07A5BE", "#00FFB0"],
+      legend: {
+        show: false,
+        orient: "vertical",
+        data: ["直接访问", "邮件营销"],
+        itemGap: 0,
+        right: 50,
+        y: "center",
+        itemWidth: 20, // 设置图例图形的宽
+        itemHeight: 10,
+        selectedMode: false,
+        formatter: "{name}",
+      },
+      series: [
+        {
+          name: "智慧看护",
+          type: "pie",
+          radius: ["50%", "70%"],
+          avoidLabelOverlap: false,
+          label: {
+            normal: {
+              show: false,
+              position: "center",
+            },
+          },
+          labelLine: {
+            show: false,
+          },
+          data: [
+            {
+              value: num22,
+              name: "智慧看护",
+              label: {
+                normal: {
+                  show: true,
+                  formatter: "{d}%",
+                  textStyle: {
+                    fontSize: 16,
+                    fontWeight: "bolder",
+                  },
+                },
+              },
+            },
+            { value: moreKanhuList - num22, name: "近身看护" },
+          ],
+        },
+      ],
+    };
+    option2 && myChart2.setOption(option2);
   }
   render() {
     const {
