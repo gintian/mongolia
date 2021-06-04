@@ -24,7 +24,7 @@ export default function SeePlate() {
       </div>
       <div className="seePlate_content">
         {count === 0 ? <Targetdata /> : null}
-        {/* {count === 1 ? <Villa /> : null} */}
+        {count === 1 ? <Villa /> : null}
       </div>
     </div>
   );

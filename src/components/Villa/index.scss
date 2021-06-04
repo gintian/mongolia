@@ -261,12 +261,6 @@
                   width: 460px;
                   position: relative;
                   height: 250px;
-                  // background-color: #1C2826;
-                  // background: url('../../assets/ios/index\ \(12\).png');
-                  // background-image: url('../../assets/ios/index\ \(12\).png');
-                  // background-repeat: no-repeat;
-                  //  background-size: 100% 100%;
-                  //  background-position: center 0;
                   margin: 4px 30px;
                   ul{
                      position: relative;
@@ -277,7 +271,7 @@
                           width: 20%;
                           .countNum{
                               text-indent: 2em;
-                              font-size: 20px;
+                              font-size: 16px;
                              color: #FFFFFF;
                              margin-left: -20px;
                           }
@@ -296,8 +290,6 @@
                         
                           p{
                               height: 0px;
-                              // margin-left: 8px;
-                            //text-align: center;
                           }
                           i{
                                background: url('../../assets/images/ios2/newlist/right\ \(10\).png');
@@ -328,24 +320,26 @@
                       }
                       li:nth-child(5){
                           position: absolute;
-                          width: 66px;
-                          height: 76px;
+                          width: 80px;
+                          height: 80px;
+                          left:150px;
+                          top:140px;
                          i{
-                             background: url('../../assets/images/ios2/newlist/right\ \(10\).png');
-                             width: 66px;
-                             height: 76px;
+                             background: url('../../assets/ownpic/banan.png');
+                             background-size:100% 100%;
+                             width: 80px;
+                             height: 80px;
                          }
                       }
                       li:nth-child(6){
                           position: absolute;
-                         left: 120px;
-                         top: 30px;
+                         left: 150px;
+                         top: 70px;
                          i{
                              background: url('../../assets/images/ios2/newlist/wful\ \(35\).png');
-                             background-size: 137px 120px;
-                            //  wful (35)
-                             width: 137px;
-                             height: 120px;
+                             background-size: 80px 70px;
+                             width: 80px;
+                             height: 70px;
                              position: relative;
                             
                          }
