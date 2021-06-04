@@ -132,7 +132,7 @@ class Targetdata extends Component {
       this.ShuiBO();
       this.ShuiBO2();
       this.ShuiBO3();
-    }, 1000);
+    }, 500);
     this.PersonEChats();
     this.getRight1();
     this.getRight2();
