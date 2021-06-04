@@ -546,7 +546,7 @@ class Targetdata extends Component {
     option && myChart.setOption(option);
   }
   getRight2() {
-    let moreKanhuList;
+    let moreKanhuList = 0;
     //看护模式数据
     let huanData = {
       data: [{ value: 48 }, { value: 12 }],
@@ -555,7 +555,8 @@ class Targetdata extends Component {
       kanhuTotal: huanData.data,
     });
     huanData.data.forEach((element) => {
-      moreKanhuList += element;
+      console.log("字", element.value, typeof element.value);
+      moreKanhuList += element.value;
     });
     console.log("我是最终参数", moreKanhuList);
     var num11 = huanData.data[0].value;
