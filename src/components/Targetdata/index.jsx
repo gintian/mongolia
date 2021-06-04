@@ -18,17 +18,17 @@ class Targetdata extends Component {
       yearIn: [
         {
           attr: "留置人员年龄饼图",
-          name: "40以上",
+          name: "40以上(14人)",
           value: 14,
         },
         {
           attr: "留置人员年龄饼图",
-          name: "40-60",
+          name: "40-60(14人)",
           value: 14,
         },
         {
           attr: "留置人员年龄饼图",
-          name: "60以下",
+          name: "60以下(14人)",
           value: 14,
         },
       ], //底部饼图数据end
@@ -75,7 +75,7 @@ class Targetdata extends Component {
 
       // 智慧留置运行态势
       runSuationCountData: {}, // 运行态势总人数
-      runSuationZXData: [], // 运行态势折线
+      runSuationZXData: [], // 运行态势柱状
       // 滞留预警
       zProductData: {
         value: "504",
@@ -83,8 +83,35 @@ class Targetdata extends Component {
       zxData: [], //总节省看护人次接口地址
       //根据留置房间编码获取留置人员信息
       DetainRiskInfo_total: 10, //系统评估符合智慧留置人数
-      ConservePersonTotal: 0, //总节省看护人次
+      ConservePersonTotal: 42, //总节省看护人次
       kanhuTotal: [{ value: 48 }, { value: 12 }], //总节省看护人次
+      roomPeopleData: {
+        caseName: "XX案件名称", //案件名称
+        groupName: "XXXX调查组", //办案组名称
+        sex: "男", //性别
+        suspectNo: "XXX代号", //留置人员代号
+        roomName: "301",
+      },
+      roomCameraData: [
+        {
+          cameraName: "摄像头1",
+        },
+        {
+          cameraName: "摄像头4",
+        },
+        {
+          cameraName: "摄像头2",
+        },
+        {
+          cameraName: "摄像头3",
+        },
+        {
+          cameraName: "摄像头5",
+        },
+        {
+          cameraName: "摄像头6",
+        },
+      ],
       //系统评估符合智慧留置人数
       riskList: {
         highNum: 8,
@@ -108,6 +135,7 @@ class Targetdata extends Component {
     }, 1000);
     this.PersonEChats();
     this.getRight2();
+    this.jieshengh();
   }
   componentWillMount() {}
   // 当前留置对象情况
@@ -365,18 +393,18 @@ class Targetdata extends Component {
   getRight2() {
     let moreKanhuList;
     //看护模式数据
-    let res = {
+    let huanData = {
       data: [{ value: 48 }, { value: 12 }],
     };
     this.setState({
-      kanhuTotal: res.data,
+      kanhuTotal: huanData.data,
     });
-    res.data.forEach((element) => {
+    huanData.data.forEach((element) => {
       moreKanhuList += element;
     });
     console.log("我是最终参数", moreKanhuList);
-    var num11 = res.data[0].value;
-    var num22 = res.data[1].value;
+    var num11 = huanData.data[0].value;
+    var num22 = huanData.data[1].value;
 
     let chartDom = document.getElementById("r2Echarts_content");
     let myChart = echarts.init(chartDom);
@@ -513,6 +541,105 @@ class Targetdata extends Component {
     };
     option2 && myChart2.setOption(option2);
   }
+
+  jieshengh() {
+    let zhuData = {
+      data: [
+        {
+          value: 22,
+          name: "4/26",
+        },
+        {
+          value: 32,
+          name: "4/27",
+        },
+        {
+          value: 42,
+          name: "4/28",
+        },
+        {
+          value: 58,
+          name: "4/29",
+        },
+        {
+          value: 21,
+          name: "4/30",
+        },
+      ],
+    };
+
+    this.setState({
+      ConservePersonTotal: Number(zhuData.data[0].value),
+      lzsqkData: zhuData.data,
+    });
+
+    //看护柱状图趋势
+
+    var jieshenghData1 = [],
+      jieshenghData2 = [];
+    zhuData.data.forEach((element) => {
+      console.log("参数", element);
+      jieshenghData1.push(element.name);
+      jieshenghData2.push(element.value);
+    });
+    //折现统计图
+    const option2 = {
+      xAxis: {
+        type: "category",
+        data: jieshenghData1,
+        axisLine: {
+          lineStyle: {
+            fontSize: 16,
+            color: "#2BFAFF",
+            width: 1, //这里是为了突出显示加上的
+          },
+        },
+      },
+      yAxis: {
+        type: "value",
+        axisLine: {
+          lineStyle: {
+            fontSize: 18,
+            color: "#FFFFFF",
+            width: 1, //这里是为了突出显示加上的
+          },
+        },
+        splitLine: {
+          show: false,
+        },
+      },
+      grid: {
+        left: "8%", //设置图表距离左边界的距离
+        right: "8%", //设置图表距离右边界的距离
+        top: "12%", //设置图表距离上边界的距离
+        bottom: "10%", //设置图表距离下边界的距离
+      },
+      series: [
+        {
+          data: jieshenghData2,
+          type: "bar",
+          barWidth: "30%",
+          itemStyle: {
+            normal: {
+              color: new echarts.graphic.LinearGradient(
+                0,
+                1,
+                0,
+                0, //4个参数用于配置渐变色的起止位置, 这4个参数依次对应右/下/左/上四个方位. 而0 1 0 0则代表渐变色从正下方开始
+                [
+                  { offset: 0, color: "#16FFEF" },
+                  { offset: 0.5, color: "#F0FF4D" },
+                  { offset: 1, color: "#16FFEF" },
+                ] //数组, 用于配置颜色的渐变过程. 每一项为一个对象, 包含offset和color两个参数. offset的范围是0 ~ 1, 用于表示柱状图的位置
+              ),
+            },
+          },
+        },
+      ],
+    };
+    const rateChart = echarts.init(document.getElementById("jieshenhlist"));
+    rateChart.setOption(option2);
+  }
   render() {
     const {
       ConservePersonTotal,
@@ -525,6 +652,8 @@ class Targetdata extends Component {
       talkSutationData,
       riskList,
       lzTypeNumData,
+      roomPeopleData,
+      roomCameraData,
     } = this.state;
     return (
       <Fragment>
@@ -668,7 +797,62 @@ class Targetdata extends Component {
               </div>
             </div>
           </div>
+          <div className="TargetdataContentw">
+            <div className="TargetdataContentone">
+              <div className="titles">
+                <p>人员概况</p>
+              </div>
+              <div className="dangerous">
+                <p>转到风险评估模型</p>
+              </div>
+              <div className="duixiang">
+                <div>
+                  <ul>
+                    <li>
+                      <span>对象代号</span>{" "}
+                      <span>{roomPeopleData.suspectNo}</span>
+                    </li>
+                    <li>
+                      <span>调查组</span>{" "}
+                      <span>{roomPeopleData.groupName}</span>
+                    </li>
+                    <li>
+                      <span>案件名称</span>{" "}
+                      <span>{roomPeopleData.caseName}</span>
+                    </li>
+                  </ul>
+                </div>
 
+                <div>
+                  <ul>
+                    <li>
+                      <span>留置室</span> <span>{roomPeopleData.roomName}</span>
+                    </li>
+                    <li>
+                      <span>性别</span> <span>{roomPeopleData.sex}</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="TargetdataContenttwo">
+              <div className="titles">
+                <p>查看房间摄像头</p>
+              </div>
+
+              <ul>
+                {roomCameraData.map((item, index) => {
+                  return (
+                    <li>
+                      <i></i>
+                      <p>{item.cameraName}</p>
+                      <p>播放</p>
+                    </li>
+                  );
+                })}
+              </ul>
+            </div>
+          </div>
           {/* 右边看板 */}
           <div className="TargetdataRight">
             {/* 对象安全风险评估 */}
@@ -756,9 +940,9 @@ class Targetdata extends Component {
               </div>
             </div>
           </div>
-          {/* <footer>
+          <footer>
             <div className="footprint"></div>
-          </footer> */}
+          </footer>
         </div>
       </Fragment>
     );
