@@ -134,6 +134,7 @@ class Targetdata extends Component {
       this.ShuiBO3();
     }, 1000);
     this.PersonEChats();
+    this.getRight1();
     this.getRight2();
     this.jieshengh();
   }
@@ -390,6 +391,160 @@ class Targetdata extends Component {
     };
     option && myChart.setOption(option);
   }
+  getRight1() {
+    let rightTopData = { data: [{ value: 8 }, { value: 10 }, { value: 12 }] };
+    //系统评估态势总人数
+    this.setState({
+      DetainRiskInfo_total: Number(rightTopData.data[1].value),
+    });
+    //高中低风险num详情
+    this.setState({
+      riskList: {
+        ...this.state.riskList,
+        highNum: rightTopData.data[0].value,
+        midNum: rightTopData.data[1].value,
+        lowNum: rightTopData.data[2].value,
+      },
+    });
+    //echarts
+    let chartDom = document.getElementById("r1Echarts_content");
+    let myChart = echarts.init(chartDom);
+    let option;
+    var BorderWidth = "6.5";
+    //反方向剩下部分的样式
+    var placeHolderStyle = {
+      normal: {
+        label: {
+          show: false,
+          position: "center",
+        },
+        labelLine: {
+          show: false,
+        },
+        color: "rgba(0,0,0,0)",
+        borderColor: "rgba(0,0,0,0)",
+        borderWidth: 0,
+      },
+      emphasis: {
+        color: "#dedede",
+        borderColor: "#dedede",
+        borderWidth: 0,
+      },
+    };
+
+    option = {
+      // backgroundColor: '#000',
+      color: ["#009cff", "#4ebefd", "#30ed9d"],
+      legend: {
+        show: false,
+        orient: "vertical",
+        left: "left",
+        top: "middle",
+        data: ["正常", "次要", "警告"],
+        textStyle: {
+          color: "#fff",
+          fontSize: 16,
+        },
+      },
+      series: [
+        {
+          name: "正常",
+          type: "pie",
+          clockWise: true, //顺时加载
+          hoverAnimation: false, //鼠标移入变大
+          radius: [35, 36],
+          itemStyle: {
+            normal: {
+              label: {
+                show: false,
+                position: "outside",
+              },
+              labelLine: {
+                show: false,
+                length: 300,
+                smooth: 0.5,
+              },
+              borderWidth: BorderWidth,
+              shadowBlur: 60,
+              borderColor: "#009cff",
+              shadowColor: "rgba(0, 0, 0, 0)", //边框阴影
+            },
+          },
+          data: [
+            { value: rightTopData.data[2].value, name: "" },
+            {
+              value: rightTopData.data[0].value + rightTopData.data[1].value,
+              name: "",
+              itemStyle: placeHolderStyle,
+            },
+          ],
+        },
+        {
+          name: "次要",
+          type: "pie",
+          clockWise: true,
+          hoverAnimation: false,
+          radius: [45, 46],
+          itemStyle: {
+            normal: {
+              label: {
+                show: false,
+              },
+              labelLine: {
+                show: false,
+                length: 100,
+                smooth: 0.5,
+              },
+              borderWidth: BorderWidth,
+              shadowBlur: 40,
+              borderColor: "#FDEB00",
+              shadowColor: "rgba(0, 0, 0, 0)", //边框阴影
+            },
+          },
+          data: [
+            { value: rightTopData.data[2].value, name: "" },
+            {
+              value: rightTopData.data[0].value + rightTopData.data[1].value,
+              name: "",
+              itemStyle: placeHolderStyle,
+            },
+          ],
+        },
+        {
+          name: "警告",
+          type: "pie",
+          clockWise: true,
+          hoverAnimation: false,
+          radius: [55, 56],
+          itemStyle: {
+            normal: {
+              label: {
+                show: false,
+              },
+              labelLine: {
+                show: false,
+                length: 100,
+                smooth: 0.5,
+              },
+              borderWidth: BorderWidth,
+              shadowBlur: 40,
+              borderColor: "#FF5736",
+              shadowColor: "rgba(0, 0, 0, 0)", //边框阴影
+            },
+          },
+          data: [
+            { value: rightTopData.data[2].value, name: "" },
+            {
+              value: rightTopData.data[0].value + rightTopData.data[1].value,
+              name: "",
+              itemStyle: placeHolderStyle,
+            },
+          ],
+        },
+      ],
+    };
+    option && myChart.setOption(option);
+  }
   getRight2() {
     let moreKanhuList;
     //看护模式数据
@@ -570,7 +725,6 @@ class Targetdata extends Component {
 
     this.setState({
       ConservePersonTotal: Number(zhuData.data[0].value),
-      lzsqkData: zhuData.data,
     });
 
     //看护柱状图趋势

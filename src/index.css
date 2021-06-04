@@ -11,10 +11,7 @@ li {
   margin: 0;
   list-style: none;
 }
-@font-face {
-  font-family: fontf1;
-  src: url("./assets/font_family/SHISHANGZHONGHEIJIANTI.TTF");
-}
+
 /* 组件进场速度 */
 .animate_speed {
   animation-delay: -0.2s;
